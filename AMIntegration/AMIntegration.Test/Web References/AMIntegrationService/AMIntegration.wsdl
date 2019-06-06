@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://bankmuscat.com/AMIntegrationService" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://bankmuscat.com/AMIntegrationService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://bankmuscat.com/AMIntegrationService">
+      <s:element name="GetListofAMCustomer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofAMCustomerReq" type="tns:GetListofAMCustomerRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofAMCustomerRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" nillable="true" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" nillable="true" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AMIntegrationReq" />
+      <s:element name="GetListofAMCustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofAMCustomerResult" type="tns:GetListofAMCustomerResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofAMCustomerResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfAMCustomer" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AMIntegrationRes">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="StatusCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAMCustomer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AMCustomer" nillable="true" type="tns:AMCustomer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AMCustomer">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceRegion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceLocation" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AssignToGroup" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BankingWith" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CardType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DebitCardGroup" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreditCardGroup" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CashGroup" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ChequeGroup" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateCreated" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateModified" nillable="true" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EntityBase" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetListofAMCustomerSoap12In">
+    <wsdl:part name="parameters" element="tns:GetListofAMCustomer" />
+  </wsdl:message>
+  <wsdl:message name="GetListofAMCustomerSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetListofAMCustomerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AMIntegrationSoap12">
+    <wsdl:operation name="GetListofAMCustomer">
+      <wsdl:input message="tns:GetListofAMCustomerSoap12In" />
+      <wsdl:output message="tns:GetListofAMCustomerSoap12Out" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AMIntegrationSoap12" type="tns:AMIntegrationSoap12">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetListofAMCustomer">
+      <soap12:operation soapAction="http://bankmuscat.com/AMIntegrationService/GetListofAMCustomer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AMIntegration">
+    <wsdl:port name="AMIntegrationSoap12" binding="tns:AMIntegrationSoap12">
+      <soap12:address location="http://localhost:55036/AMIntegration.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

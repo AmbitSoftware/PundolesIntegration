@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://bankmuscat.com/AMIntegrationService" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://bankmuscat.com/AMIntegrationService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://bankmuscat.com/AMIntegrationService">
+      <s:element name="GetListofAMCustomer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofAMCustomerReq" type="tns:GetListofAMCustomerRequest" />
+            <s:element minOccurs="1" maxOccurs="1" name="StartDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="EndDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofAMCustomerRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" nillable="true" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" nillable="true" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AMIntegrationReq" />
+      <s:element name="GetListofAMCustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofAMCustomerResult" type="tns:GetListofAMCustomerResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofAMCustomerResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfAMCustomer" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AMIntegrationRes">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="StatusCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAMCustomer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AMCustomer" nillable="true" type="tns:AMCustomer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AMCustomer">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceLocation" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AssignToGroup" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="firstname" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="lastname" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NetsuiteId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DebitCardGroup" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="fax" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="comments" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AuctionRecordId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="email_address" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="companyname" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="addresses" type="tns:ArrayOfAMAddress" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EntityBase" />
+      <s:complexType name="AMAddress">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Street_address" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Country_code" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Locality" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="region" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="postal_code" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfAMAddress">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AMAddress" nillable="true" type="tns:AMAddress" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetListofAMRegistration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofAMAuctionReq" type="tns:GetListofAMRegistrationRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofAMRegistrationRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" nillable="true" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" nillable="true" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetListofAMRegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofAMRegistrationResult" type="tns:GetListofAMRegistrationResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofAMRegistrationResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfAMRegistration" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfAMRegistration">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AMRegistration" nillable="true" type="tns:AMRegistration" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AMRegistration">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Customer_id" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Paddle" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Created_at" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Customer" type="tns:AMCustomer" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetListSuiteContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSuiteContactRequest" type="tns:GetListofSuiteContactRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofSuiteContactRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" nillable="true" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" nillable="true" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetListSuiteContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListSuiteContactResult" type="tns:GetListofSuiteContactResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofSuiteContactResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:AMIntegrationRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfAMCustomer" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetListofAMCustomerSoap12In">
+    <wsdl:part name="parameters" element="tns:GetListofAMCustomer" />
+  </wsdl:message>
+  <wsdl:message name="GetListofAMCustomerSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetListofAMCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListofAMRegistrationSoap12In">
+    <wsdl:part name="parameters" element="tns:GetListofAMRegistration" />
+  </wsdl:message>
+  <wsdl:message name="GetListofAMRegistrationSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetListofAMRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListSuiteContactSoap12In">
+    <wsdl:part name="parameters" element="tns:GetListSuiteContact" />
+  </wsdl:message>
+  <wsdl:message name="GetListSuiteContactSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetListSuiteContactResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AMIntegrationSoap12">
+    <wsdl:operation name="GetListofAMCustomer">
+      <wsdl:input message="tns:GetListofAMCustomerSoap12In" />
+      <wsdl:output message="tns:GetListofAMCustomerSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListofAMRegistration">
+      <wsdl:input message="tns:GetListofAMRegistrationSoap12In" />
+      <wsdl:output message="tns:GetListofAMRegistrationSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListSuiteContact">
+      <wsdl:input message="tns:GetListSuiteContactSoap12In" />
+      <wsdl:output message="tns:GetListSuiteContactSoap12Out" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AMIntegrationSoap12" type="tns:AMIntegrationSoap12">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetListofAMCustomer">
+      <soap12:operation soapAction="http://bankmuscat.com/AMIntegrationService/GetListofAMCustomer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListofAMRegistration">
+      <soap12:operation soapAction="http://bankmuscat.com/AMIntegrationService/GetListofAMRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListSuiteContact">
+      <soap12:operation soapAction="http://bankmuscat.com/AMIntegrationService/GetListSuiteContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AMIntegration">
+    <wsdl:port name="AMIntegrationSoap12" binding="tns:AMIntegrationSoap12">
+      <soap12:address location="http://localhost:55036/AMIntegration.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

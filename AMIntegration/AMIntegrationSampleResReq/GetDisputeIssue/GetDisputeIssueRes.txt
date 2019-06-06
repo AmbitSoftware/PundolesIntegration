@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <GetDisputeIssueResponse xmlns="http://bankmuscat.com/WeCareService">
+         <GetDisputeIssueResult>
+            <StatusCode>5</StatusCode>
+            <Message>Success</Message>
+            <ReferenceID>425gv54g24vdas42344</ReferenceID>
+            <List>
+               <DisputeIssues>
+                  <DisputeIssue>QA12</DisputeIssue>
+                  <SLADays>66</SLADays>
+                  <IsDocumentRequired>false</IsDocumentRequired>
+                  <Status>SM1</Status>
+               </DisputeIssues>
+               <DisputeIssues>
+                  <DisputeIssue>Dispute Issue</DisputeIssue>
+                  <SLADays>9</SLADays>
+                  <IsDocumentRequired>false</IsDocumentRequired>
+                  <Status>SM4</Status>
+               </DisputeIssues>
+               <DisputeIssues>
+                  <DisputeIssue>Shree123</DisputeIssue>
+                  <SLADays>3</SLADays>
+                  <IsDocumentRequired>false</IsDocumentRequired>
+                  <Status>SM6</Status>
+               </DisputeIssues>
+               <DisputeIssues>
+                  <DisputeIssue>Testing</DisputeIssue>
+                  <SLADays>95</SLADays>
+                  <IsDocumentRequired>false</IsDocumentRequired>
+                  <Status>SM5</Status>
+               </DisputeIssues>           
+            </List>
+         </GetDisputeIssueResult>
+      </GetDisputeIssueResponse>
+   </soap:Body>
+</soap:Envelope>

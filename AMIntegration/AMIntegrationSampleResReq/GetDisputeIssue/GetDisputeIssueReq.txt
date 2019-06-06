@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <GetDisputeIssue xmlns="http://bankmuscat.com/WeCareService">
+         <GetDisputeIssueReq>
+            <ReferenceID>425gv54g24vdas42344</ReferenceID>
+            <Channel>IB</Channel>
+         </GetDisputeIssueReq>
+      </GetDisputeIssue>
+   </soap:Body>
+</soap:Envelope>

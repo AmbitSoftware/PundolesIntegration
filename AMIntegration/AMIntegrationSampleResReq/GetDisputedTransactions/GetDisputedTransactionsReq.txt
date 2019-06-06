@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <GetDisputedTransactions xmlns="http://bankmuscat.com/WeCareService">
+         <GetDisputedTransactionsRequestReq>
+            <ReferenceID>1234</ReferenceID>
+            <Channel>BM</Channel>
+            <CIFNo>50029527</CIFNo>
+            <BankingWith>BW2</BankingWith>
+            <CardType>AT4</CardType>
+            <AccountNo>0001</AccountNo>
+         </GetDisputedTransactionsRequestReq>
+      </GetDisputedTransactions>
+   </soap:Body>
+</soap:Envelope>

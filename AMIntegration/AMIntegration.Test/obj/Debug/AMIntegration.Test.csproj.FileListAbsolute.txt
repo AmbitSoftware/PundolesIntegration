@@ -1,0 +1,6 @@
+E:\WeCare - Original\WeCare.Test\obj\Debug\AMIntegration.Test.csprojAssemblyReference.cache
+E:\WeCare - Original\WeCare.Test\obj\Debug\AMIntegration.Test.csproj.CoreCompileInputs.cache
+E:\WeCare - Original\WeCare.Test\obj\Debug\WeCare.Test.exe
+E:\WeCare - Original\WeCare.Test\obj\Debug\WeCare.Test.pdb
+E:\WeCare\WeCare.Test\obj\Debug\AMIntegration.Test.csprojAssemblyReference.cache
+E:\WeCare\WeCare.Test\obj\Debug\AMIntegration.Test.csproj.CoreCompileInputs.cache

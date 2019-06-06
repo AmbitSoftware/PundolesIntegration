@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://bankmuscat.com/WeCareService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://bankmuscat.com/WeCareService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://bankmuscat.com/WeCareService">
+      <s:element name="GetListofATMCDM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofATMCDMReq" type="tns:GetListofATMCDMRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofATMCDMRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="WeCareReq" />
+      <s:element name="GetListofATMCDMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofATMCDMResult" type="tns:GetListofATMCDMResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofATMCDMResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfATMCDM" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="WeCareRes">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="StatusCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfATMCDM">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ATMCDM" nillable="true" type="tns:ATMCDM" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ATMCDM">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceRegion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceLocation" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AssignToGroup" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BankingWith" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CardType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateCreated" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateModified" nillable="true" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EntityBase" />
+      <s:element name="GetListofBranches">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofBranchesReq" type="tns:GetListofBranchesRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofBranchesRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetListofBranchesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofBranchesResult" type="tns:GetListofBranchesResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofBranchesResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfBranch" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfBranch">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Branch" nillable="true" type="tns:Branch" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Branch">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Location" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BranchManagerEmailID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ServiceManagerEmailID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateCreated" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateModified" nillable="true" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="AddNewCase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewCaseReq" type="tns:AddNewCaseRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AddNewCaseRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CIFNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="BankingWith" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AdditionalMobileNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AdditionalEmailID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AccountType" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="LoanApplicationDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="LoanPremiumAmount" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="LoanType" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Area" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Category" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="SubCategory" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Issue" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CommentsEnglish" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CommentsArabic" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateofTransaction" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="IncidentBranchRegion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IncidentBranch" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IncidentLocation" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IncidentDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="TypeofSettlement" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PolicyNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IssuanceDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="PolicyType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceLocation" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CardsChannel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="OtherBankName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Amount" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="CardType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PaidMobileNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ContractNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ServiceProviderAccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SindbadNumber" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateofChequeDeposited" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ChequeNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NarrationofTransaction" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceSoftware" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IMEINo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="RegisteredforMBanking" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="LoanNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NOCCLCApplicationNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Currency" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="AffectedUserName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IDNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PassportNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CustomerSatisfactionRating" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="ReopeningCommentsCustomer" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NIDNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CorporateIBUserName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CorporateIBUserID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListOfAttachments" type="tns:ArrayOfAttachment" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustomerCategory" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustomerType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ProcessID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AmexCardNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ARNorRRNNumber" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BeneficiaryAccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BillAccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BillContractNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateofVisit" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="DealNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DraweeBank" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="EmailID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="GSMNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MerchantName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MobileHandsetModel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MobileNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NameofStaff" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="POBoxAddress" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PaymentChannel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceBarcodeNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="RequestedPercentageRate" nillable="true" type="s:float" />
+              <s:element minOccurs="0" maxOccurs="1" name="SchoolName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="StudentIDNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TelephoneNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TimeofTransaction" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TokenNumber" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="URLAddress" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfAttachment">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Attachment" nillable="true" type="tns:Attachment" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Attachment">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="AttachmentName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="AttachmentContents" type="s:base64Binary" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="AddNewCaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewCaseResult" type="tns:AddNewCaseResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AddNewCaseResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FeedbackID" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="AddNewCardDisputeCase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewCardDisputeCaseReq" type="tns:AddNewCardDisputeCaseRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AddNewCardDisputeCaseRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CIFNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="BankingWith" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CardType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListOfAttachments" type="tns:ArrayOfAttachment" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListOfDisputeData" type="tns:ArrayOfCardDisputeCase" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfCardDisputeCase">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CardDisputeCase" nillable="true" type="tns:CardDisputeCase" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CardDisputeCase">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="TransactionNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="PostingDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="Merchant" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Country" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Amount" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="AmountinForeignCurrency" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListOfAttachments" type="tns:ArrayOfAttachment" />
+              <s:element minOccurs="0" maxOccurs="1" name="DisputeIssue" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="AddNewCardDisputeCaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewCardDisputeCaseResult" type="tns:AddNewCardDisputeCaseResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AddNewCardDisputeCaseResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FeedbackID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TransactionReferenceID" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="UpdateCaseDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateCaseDetailsReq" type="tns:UpdateCaseDetailsRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UpdateCaseDetailsRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FeedbackID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CustomerSatisfactionRating" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ReopeningComments" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ReopeningChannel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="UpdateCaseDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateCaseDetailsResult" type="tns:UpdateCaseDetailsResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UpdateCaseDetailsResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseListReq" type="tns:GetCaseListRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseListRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CIFNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="BankingWith" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseListResult" type="tns:GetCaseListResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseListResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfCase" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfCase">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Case" nillable="true" type="tns:Case" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Case">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="FeedbackID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Area" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SubCategory" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Issue" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateCreated" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateModified" nillable="true" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseCountReq" type="tns:GetCaseCountRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseCountRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CIFNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="BankingWith" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseCountResult" type="tns:GetCaseCountResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseCountResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CaseCount" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseStatusReq" type="tns:GetCaseStatusRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseStatusRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FeedbackID" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseStatusResult" type="tns:GetCaseStatusResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseStatusResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Result" type="tns:GetCaseStatus" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="GetCaseStatus">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="FeedbackID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseDetailsReq" type="tns:GetCaseDetailsRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseDetailsRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FeedbackID" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetCaseDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCaseDetailsResult" type="tns:GetCaseDetailsResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetCaseDetailsResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Result" type="tns:GetCaseDetails" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="GetCaseDetails">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BankingWith" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AdditionalMobileNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AdditionalEmailID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AccountType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AccountStatus" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="LoanApplicationDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="LoanPremiumAmount" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="LoanType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Area" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SubCategory" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Issue" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CommentsEnglish" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CommentsArabic" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsHold" nillable="true" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateofTransaction" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="IncidentBranchRegion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IncidentBranch" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IncidentLocation" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IncidentDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="TypeofSettlement" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PolicyNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IssuanceDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="PolicyType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceLocation" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CardsChannel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="OtherBankName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Amount" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="CardType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PaidMobileNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ContractNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ServiceProviderAccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SindbadNumber" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateofChequeDeposited" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ChequeNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NarrationofTransaction" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeviceSoftware" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IMEINo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="RegisteredforMBanking" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="LoanNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NOCCLCApplicationNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="GuaranteeReferenceNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="InternationalGuaranteeReferenceNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Currency" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="AffectedUsername" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="IDNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PassportNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CustomerSatisfactionRating" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="ReopeningCommentsCustomer" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CrisisID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NIDNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ReasonofUnhold" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateCreated" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateModified" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifiedBy" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreatedBy" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="HoldReason" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="HoldDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="CorporateIBUserName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CorporateIBUserID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FinalizedComments" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ClosureComments" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AmexCardNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ARNorRRNNumber" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BeneficiaryAccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BillAccountNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BillContractNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateofVisit" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="DealNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DraweeBank" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="EmailID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="GSMNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MerchantName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MobileHandsetModel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MobileNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NameofStaff" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="POBoxAddress" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PaymentChannel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceBarcodeNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="RequestedPercentageRate" nillable="true" type="s:float" />
+              <s:element minOccurs="0" maxOccurs="1" name="SchoolName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="StudentIDNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TelephoneNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TimeofTransaction" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TokenNumber" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="URLAddress" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsDocumentRequired" nillable="true" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListOfAttachments" type="tns:ArrayOfAttachment" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListOfTransactionDetails" type="tns:ArrayOfTransactionDetail" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfTransactionDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TransactionDetail" nillable="true" type="tns:TransactionDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TransactionDetail">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="TransactionReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TransactionNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="PostingDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="Merchant" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DisputeIssue" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsDocumentsRequired" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListOfAttachments" type="tns:ArrayOfAttachment" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetListofProcessMatrices">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofProcessMatricesReq" type="tns:GetListofProcessMatricesRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofProcessMatricesRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetListofProcessMatricesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetListofProcessMatricesResult" type="tns:GetListofProcessMatricesResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetListofProcessMatricesResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfProcessMatrices" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfProcessMatrices">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ProcessMatrices" nillable="true" type="tns:ProcessMatrices" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ProcessMatrices">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ProcessID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Area" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SubCategory" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Issue" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateCreated" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateModified" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsCorporateProcess" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsRetailProcess" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsBankMuscatProcess" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsMeethaqProcess" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsGovernmentProcess" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="ProcessName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ShowFields" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MandatoryFields" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="AvailableforChannel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ShowFieldsinIBMB" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="IsSystemAvailable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsSystemAvailableReq" type="tns:IsSystemAvailableRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IsSystemAvailableRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="IsSystemAvailableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsSystemAvailableResult" type="tns:IsSystemAvailableResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IsSystemAvailableResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsSystemAvailable" nillable="true" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetDropdownMaster">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDropdownMasterReq" type="tns:GetDropdownMasterRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetDropdownMasterRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetDropdownMasterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDropdownMasterResult" type="tns:GetDropdownMasterResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetDropdownMasterResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfDropdownMaster" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfDropdownMaster">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DropdownMaster" nillable="true" type="tns:DropdownMaster" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DropdownMaster">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="DropdownName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="KeyValue" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NameinEnglish" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NameinArabic" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetDisputeIssue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDisputeIssueReq" type="tns:GetDisputeIssueRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetDisputeIssueRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetDisputeIssueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDisputeIssueResult" type="tns:GetDisputeIssueMResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetDisputeIssueMResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfDisputeIssues" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfDisputeIssues">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DisputeIssues" nillable="true" type="tns:DisputeIssues" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DisputeIssues">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="DisputeIssue" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="SLADays" nillable="true" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsDocumentRequired" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetDisputedTransactions">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDisputedTransactionsRequestReq" type="tns:GetDisputedTransactionsRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetDisputedTransactionsRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CIFNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="BankingWith" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CardType" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountNo" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="GetDisputedTransactionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDisputedTransactionsResult" type="tns:GetDisputedTransactionsResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetDisputedTransactionsResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfDisputedTransactions" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfDisputedTransactions">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DisputedTransactions" nillable="true" type="tns:DisputedTransactions" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DisputedTransactions">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntityBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="FeedbackID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Transaction" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="PostingDate" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="Merchant" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="AmountinForeignCurrency" nillable="true" type="s:decimal" />
+              <s:element minOccurs="1" maxOccurs="1" name="AmountOMR" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="DisputeIssue" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="AddNewUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewUserReq" type="tns:AddNewUserRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AddNewUserRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareReq">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Channel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PhoneMobile" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PhoneWork" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Department" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="StreetAddress" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MessengerID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="MessengerType" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="AddNewUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewUserResult" type="tns:AddNewUserResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AddNewUserResponse">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:WeCareRes">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ReferenceID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FeedbackID" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetListofATMCDMSoap12In">
+    <wsdl:part name="parameters" element="tns:GetListofATMCDM" />
+  </wsdl:message>
+  <wsdl:message name="GetListofATMCDMSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetListofATMCDMResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListofBranchesSoap12In">
+    <wsdl:part name="parameters" element="tns:GetListofBranches" />
+  </wsdl:message>
+  <wsdl:message name="GetListofBranchesSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetListofBranchesResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddNewCaseSoap12In">
+    <wsdl:part name="parameters" element="tns:AddNewCase" />
+  </wsdl:message>
+  <wsdl:message name="AddNewCaseSoap12Out">
+    <wsdl:part name="parameters" element="tns:AddNewCaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddNewCardDisputeCaseSoap12In">
+    <wsdl:part name="parameters" element="tns:AddNewCardDisputeCase" />
+  </wsdl:message>
+  <wsdl:message name="AddNewCardDisputeCaseSoap12Out">
+    <wsdl:part name="parameters" element="tns:AddNewCardDisputeCaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCaseDetailsSoap12In">
+    <wsdl:part name="parameters" element="tns:UpdateCaseDetails" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCaseDetailsSoap12Out">
+    <wsdl:part name="parameters" element="tns:UpdateCaseDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseListSoap12In">
+    <wsdl:part name="parameters" element="tns:GetCaseList" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseListSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetCaseListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseCountSoap12In">
+    <wsdl:part name="parameters" element="tns:GetCaseCount" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseCountSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetCaseCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseStatusSoap12In">
+    <wsdl:part name="parameters" element="tns:GetCaseStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseStatusSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetCaseStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseDetailsSoap12In">
+    <wsdl:part name="parameters" element="tns:GetCaseDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetCaseDetailsSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetCaseDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetListofProcessMatricesSoap12In">
+    <wsdl:part name="parameters" element="tns:GetListofProcessMatrices" />
+  </wsdl:message>
+  <wsdl:message name="GetListofProcessMatricesSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetListofProcessMatricesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsSystemAvailableSoap12In">
+    <wsdl:part name="parameters" element="tns:IsSystemAvailable" />
+  </wsdl:message>
+  <wsdl:message name="IsSystemAvailableSoap12Out">
+    <wsdl:part name="parameters" element="tns:IsSystemAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDropdownMasterSoap12In">
+    <wsdl:part name="parameters" element="tns:GetDropdownMaster" />
+  </wsdl:message>
+  <wsdl:message name="GetDropdownMasterSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetDropdownMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDisputeIssueSoap12In">
+    <wsdl:part name="parameters" element="tns:GetDisputeIssue" />
+  </wsdl:message>
+  <wsdl:message name="GetDisputeIssueSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetDisputeIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDisputedTransactionsSoap12In">
+    <wsdl:part name="parameters" element="tns:GetDisputedTransactions" />
+  </wsdl:message>
+  <wsdl:message name="GetDisputedTransactionsSoap12Out">
+    <wsdl:part name="parameters" element="tns:GetDisputedTransactionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserSoap12In">
+    <wsdl:part name="parameters" element="tns:AddNewUser" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserSoap12Out">
+    <wsdl:part name="parameters" element="tns:AddNewUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WeCareSoap12">
+    <wsdl:operation name="GetListofATMCDM">
+      <wsdl:input message="tns:GetListofATMCDMSoap12In" />
+      <wsdl:output message="tns:GetListofATMCDMSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListofBranches">
+      <wsdl:input message="tns:GetListofBranchesSoap12In" />
+      <wsdl:output message="tns:GetListofBranchesSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewCase">
+      <wsdl:input message="tns:AddNewCaseSoap12In" />
+      <wsdl:output message="tns:AddNewCaseSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewCardDisputeCase">
+      <wsdl:input message="tns:AddNewCardDisputeCaseSoap12In" />
+      <wsdl:output message="tns:AddNewCardDisputeCaseSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCaseDetails">
+      <wsdl:input message="tns:UpdateCaseDetailsSoap12In" />
+      <wsdl:output message="tns:UpdateCaseDetailsSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseList">
+      <wsdl:input message="tns:GetCaseListSoap12In" />
+      <wsdl:output message="tns:GetCaseListSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseCount">
+      <wsdl:input message="tns:GetCaseCountSoap12In" />
+      <wsdl:output message="tns:GetCaseCountSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseStatus">
+      <wsdl:input message="tns:GetCaseStatusSoap12In" />
+      <wsdl:output message="tns:GetCaseStatusSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseDetails">
+      <wsdl:input message="tns:GetCaseDetailsSoap12In" />
+      <wsdl:output message="tns:GetCaseDetailsSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListofProcessMatrices">
+      <wsdl:input message="tns:GetListofProcessMatricesSoap12In" />
+      <wsdl:output message="tns:GetListofProcessMatricesSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="IsSystemAvailable">
+      <wsdl:input message="tns:IsSystemAvailableSoap12In" />
+      <wsdl:output message="tns:IsSystemAvailableSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDropdownMaster">
+      <wsdl:input message="tns:GetDropdownMasterSoap12In" />
+      <wsdl:output message="tns:GetDropdownMasterSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisputeIssue">
+      <wsdl:input message="tns:GetDisputeIssueSoap12In" />
+      <wsdl:output message="tns:GetDisputeIssueSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisputedTransactions">
+      <wsdl:input message="tns:GetDisputedTransactionsSoap12In" />
+      <wsdl:output message="tns:GetDisputedTransactionsSoap12Out" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUser">
+      <wsdl:input message="tns:AddNewUserSoap12In" />
+      <wsdl:output message="tns:AddNewUserSoap12Out" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WeCareSoap12" type="tns:WeCareSoap12">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetListofATMCDM">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetListofATMCDM" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListofBranches">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetListofBranches" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewCase">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/AddNewCase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewCardDisputeCase">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/AddNewCardDisputeCase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCaseDetails">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/UpdateCaseDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseList">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetCaseList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseCount">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetCaseCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseStatus">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetCaseStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCaseDetails">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetCaseDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetListofProcessMatrices">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetListofProcessMatrices" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsSystemAvailable">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/IsSystemAvailable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDropdownMaster">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetDropdownMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDisputeIssue">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetDisputeIssue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDisputedTransactions">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/GetDisputedTransactions" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUser">
+      <soap12:operation soapAction="http://bankmuscat.com/WeCareService/AddNewUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WeCare">
+    <wsdl:port name="WeCareSoap12" binding="tns:WeCareSoap12">
+      <soap12:address location="http://localhost:55036/WeCare.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

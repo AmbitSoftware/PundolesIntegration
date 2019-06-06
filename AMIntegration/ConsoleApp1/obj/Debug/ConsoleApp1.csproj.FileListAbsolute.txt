@@ -1,0 +1,14 @@
+E:\WeCare\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\WeCare\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\WeCare\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\WeCare\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\WeCare\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\WeCare\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\WeCare\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\Project\Pundoles\AMIntegration\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\Project\Pundoles\AMIntegration\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\Project\Pundoles\AMIntegration\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\Project\Pundoles\AMIntegration\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Project\Pundoles\AMIntegration\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\Project\Pundoles\AMIntegration\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\Project\Pundoles\AMIntegration\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache

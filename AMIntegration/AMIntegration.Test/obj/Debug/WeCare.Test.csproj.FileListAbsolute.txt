@@ -1,0 +1,112 @@
+C:\Projects\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+C:\Projects\WeCare.Test\bin\Debug\WeCare.Test.exe
+C:\Projects\WeCare.Test\bin\Debug\WeCare.Test.pdb
+C:\Projects\WeCare.Test\obj\Debug\WeCare.Test.exe
+C:\Projects\WeCare.Test\obj\Debug\WeCare.Test.pdb
+C:\Projects\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\WeCare.Test\bin\Debug\WeCare.dll
+C:\Projects\WeCare.Test\bin\Debug\WeCare.pdb
+C:\Projects\WeCare.Test\obj\Debug\WeCare.Test.csprojResolveAssemblyReference.cache
+D:\Projects\BM Service\Projects\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\Projects\BM Service\Projects\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\Projects\BM Service\Projects\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\Projects\BM Service\Projects\WeCare.Test\bin\Debug\Cryptography.dll
+D:\Projects\BM Service\Projects\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\BM Service\Projects\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\BM Service\Projects\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\Projects\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+D:\Projects\BM Service\Projects\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\Projects\BM Service\Projects\WeCare.Test\obj\Debug\WeCare.Test.pdb
+D:\AnkitWork\Projects\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\AnkitWork\Projects\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\AnkitWork\Projects\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\AnkitWork\Projects\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\AnkitWork\Projects\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\AnkitWork\Projects\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+D:\AnkitWork\Projects\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+D:\AnkitWork\Projects\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\AnkitWork\Projects\WeCare.Test\obj\Debug\WeCare.Test.pdb
+D:\Projects\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+D:\Projects\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\Projects\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\Projects\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\Projects\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+D:\Projects\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\Projects\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+D:\Projects\BM Service\WeCare\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csprojAssemblyReference.cache
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csprojAssemblyReference.cache
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+E:\Dayanand\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+E:\Dayanand\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+E:\Dayanand\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+E:\Dayanand\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+E:\Dayanand\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+E:\Dayanand\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csprojAssemblyReference.cache
+E:\Dayanand\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+E:\Dayanand\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+E:\Dayanand\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+E:\Dayanand\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+E:\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+E:\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+E:\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+E:\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+E:\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+E:\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+E:\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+E:\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+E:\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\IAM_Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csprojResolveAssemblyReference.cache
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\bin\Debug\WeCare.Test.exe
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\bin\Debug\WeCare.Test.pdb
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csprojAssemblyReference.cache
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\obj\Debug\WeCare.Test.exe
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare.Test\obj\Debug\WeCare.Test.pdb
+E:\WeCare\WeCare.Test\obj\Debug\WeCare.Test.csprojAssemblyReference.cache
+E:\WeCare - Original\WeCare.Test\bin\Debug\WeCare.Test.exe.config
+E:\WeCare - Original\WeCare.Test\bin\Debug\WeCare.Test.exe
+E:\WeCare - Original\WeCare.Test\bin\Debug\WeCare.Test.pdb
+E:\WeCare - Original\WeCare.Test\bin\Debug\Newtonsoft.Json.dll
+E:\WeCare - Original\WeCare.Test\bin\Debug\Newtonsoft.Json.xml
+E:\WeCare - Original\WeCare.Test\obj\Debug\WeCare.Test.csproj.CoreCompileInputs.cache
+E:\WeCare - Original\WeCare.Test\obj\Debug\WeCare.Test.csproj.CopyComplete
+E:\WeCare - Original\WeCare.Test\obj\Debug\WeCare.Test.exe
+E:\WeCare - Original\WeCare.Test\obj\Debug\WeCare.Test.pdb
