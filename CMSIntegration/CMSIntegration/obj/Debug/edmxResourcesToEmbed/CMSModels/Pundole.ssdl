@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PundolesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="contacts">
+    <Key>
+      <PropertyRef Name="contact_id" />
+    </Key>
+    <Property Name="contact_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="salutation" Type="nvarchar" MaxLength="255" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+    <Property Name="contact_type" Type="int" />
+    <Property Name="client_number" Type="nvarchar" MaxLength="255" />
+    <Property Name="interest_id" Type="int" />
+    <Property Name="category_id" Type="int" />
+    <Property Name="customer_category_id" Type="int" />
+    <Property Name="level_id" Type="int" />
+    <Property Name="catalogue_id" Type="int" />
+    <Property Name="marital_status_id" Type="int" />
+    <Property Name="marriage_anniversary_date" Type="date" />
+    <Property Name="am_customer_id" Type="nvarchar" MaxLength="255" />
+    <Property Name="approval_status_id" Type="int" />
+    <Property Name="authorized_to_bid_id" Type="int" />
+    <Property Name="email" Type="nvarchar" MaxLength="255" />
+    <Property Name="phone" Type="nvarchar" MaxLength="100" />
+    <Property Name="fax" Type="nvarchar" MaxLength="100" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="100" />
+    <Property Name="other_phone" Type="nvarchar" MaxLength="100" />
+    <Property Name="clients_vat_tin_no" Type="nvarchar" MaxLength="255" />
+    <Property Name="aadhar_number" Type="nvarchar" MaxLength="255" />
+    <Property Name="pan_no" Type="nvarchar" MaxLength="255" />
+    <Property Name="date_created" Type="datetime" />
+    <Property Name="date_modified" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="PundolesModelStoreContainer">
+    <EntitySet Name="contacts" EntityType="Self.contacts" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

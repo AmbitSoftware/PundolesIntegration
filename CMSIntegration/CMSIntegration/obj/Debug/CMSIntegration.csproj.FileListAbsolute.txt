@@ -1,0 +1,278 @@
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csprojAssemblyReference.cache
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CoreCompileInputs.cache
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll.config
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\CMSIntegration.pdb
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe.config
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\csc.rsp
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe.config
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\csi.rsp
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.AppContext.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Collections.Immutable.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Console.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Compression.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Reflection.Metadata.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.AccessControl.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Claims.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.ValueTuple.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe.config
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\vbc.rsp
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe.config
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\System.Web.Http.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.xml
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.xml
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\System.Web.Http.xml
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.xml
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CopyComplete
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.dll
+D:\Components and Utilties\Pundoles\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll.config
+D:\Projects\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\csc.rsp
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\csi.rsp
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.AppContext.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Console.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Compression.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.AccessControl.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Claims.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.ValueTuple.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\vbc.rsp
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe
+D:\Projects\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\System.Web.Http.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.dll
+D:\Projects\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.xml
+D:\Projects\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.xml
+D:\Projects\CMSIntegration\CMSIntegration\bin\System.Web.Http.xml
+D:\Projects\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.xml
+D:\Projects\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CoreCompileInputs.cache
+D:\Projects\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CopyComplete
+D:\Projects\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.dll
+D:\Projects\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csprojAssemblyReference.cache
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll.config
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\CMSIntegration.pdb
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe.config
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\csc.rsp
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe.config
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\csi.rsp
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.AppContext.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Collections.Immutable.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Console.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Compression.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Reflection.Metadata.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.AccessControl.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Claims.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.ValueTuple.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe.config
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\vbc.rsp
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe.config
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\System.Web.Http.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.xml
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.xml
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\System.Web.Http.xml
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.xml
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csprojAssemblyReference.cache
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CoreCompileInputs.cache
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CopyComplete
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.rsp
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.rsp
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.AppContext.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Console.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Compression.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.AccessControl.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Claims.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.ValueTuple.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.rsp
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.SqlServer.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Cors.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Hosting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Owin.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Cors.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.Owin.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.SqlServer.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Cors.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Hosting.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.Owin.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csprojAssemblyReference.cache
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CoreCompileInputs.cache
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.csproj.CopyComplete
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Debug\CMSIntegration.pdb

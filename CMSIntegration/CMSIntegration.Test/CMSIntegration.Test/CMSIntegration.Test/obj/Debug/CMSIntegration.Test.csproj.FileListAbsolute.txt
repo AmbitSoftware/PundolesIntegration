@@ -1,0 +1,26 @@
+D:\Projects\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.exe.config
+D:\Projects\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.exe
+D:\Projects\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.pdb
+D:\Projects\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.csproj.CoreCompileInputs.cache
+D:\Projects\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.exe
+D:\Projects\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.pdb
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.exe.config
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.exe
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.pdb
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.csprojAssemblyReference.cache
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.csproj.CoreCompileInputs.cache
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.csproj.CopyComplete
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.exe
+D:\Components and Utilties\Pundoles\UpdateCMS\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\CMSIntegration.Test.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.csproj.CoreCompileInputs.cache
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.csproj.CopyComplete
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration.Test\CMSIntegration.Test\CMSIntegration.Test\obj\Debug\CMSIntegration.Test.csprojAssemblyReference.cache

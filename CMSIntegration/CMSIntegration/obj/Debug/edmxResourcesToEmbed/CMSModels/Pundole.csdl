@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PundolesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="contact_id" />
+    </Key>
+    <Property Name="contact_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="salutation" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="contact_type" Type="Int32" />
+    <Property Name="client_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="interest_id" Type="Int32" />
+    <Property Name="category_id" Type="Int32" />
+    <Property Name="customer_category_id" Type="Int32" />
+    <Property Name="level_id" Type="Int32" />
+    <Property Name="catalogue_id" Type="Int32" />
+    <Property Name="marital_status_id" Type="Int32" />
+    <Property Name="marriage_anniversary_date" Type="DateTime" Precision="0" />
+    <Property Name="am_customer_id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="approval_status_id" Type="Int32" />
+    <Property Name="authorized_to_bid_id" Type="Int32" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="fax" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="other_phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="clients_vat_tin_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="aadhar_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="pan_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="date_created" Type="DateTime" Precision="3" />
+    <Property Name="date_modified" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="PundoleEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="contacts" EntityType="Self.contact" />
+  </EntityContainer>
+</Schema>

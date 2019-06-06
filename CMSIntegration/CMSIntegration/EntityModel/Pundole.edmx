@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PundolesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="artists">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="255" />
+          <Property Name="description" Type="nvarchar(max)" />
+          <Property Name="year_of_birth_c" Type="nvarchar" MaxLength="50" />
+          <Property Name="year_of_death_c" Type="nvarchar" MaxLength="50" />
+          <Property Name="status" Type="bit" />
+          <Property Name="created_date" Type="datetime" />
+          <Property Name="modified_date" Type="datetime" />
+          <Property Name="createdby_id" Type="int" />
+          <Property Name="modifiedby_id" Type="int" />
+        </EntityType>
+        <EntityType Name="contacts">
+          <Key>
+            <PropertyRef Name="contact_id" />
+          </Key>
+          <Property Name="contact_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="salutation" Type="nvarchar" MaxLength="100" />
+          <Property Name="first_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="last_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="company_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="contact_type" Type="nvarchar" MaxLength="100" />
+          <Property Name="client_number" Type="nvarchar" MaxLength="255" />
+          <Property Name="interest_id" Type="nvarchar(max)" />
+          <Property Name="category_id" Type="nvarchar(max)" />
+          <Property Name="customer_category_id" Type="nvarchar" MaxLength="100" />
+          <Property Name="level_id" Type="nvarchar" MaxLength="100" />
+          <Property Name="catalogue_id" Type="nvarchar" MaxLength="100" />
+          <Property Name="marital_status_id" Type="nvarchar" MaxLength="100" />
+          <Property Name="marriage_anniversary_date" Type="date" />
+          <Property Name="am_customer_id" Type="nvarchar" MaxLength="255" />
+          <Property Name="approval_status_id" Type="nvarchar" MaxLength="100" />
+          <Property Name="authorized_to_bid_id" Type="nvarchar" MaxLength="100" />
+          <Property Name="email" Type="nvarchar" MaxLength="255" />
+          <Property Name="phone" Type="nvarchar" MaxLength="100" />
+          <Property Name="fax" Type="nvarchar" MaxLength="100" />
+          <Property Name="mobile" Type="nvarchar" MaxLength="100" />
+          <Property Name="other_phone" Type="nvarchar" MaxLength="100" />
+          <Property Name="clients_vat_tin_no" Type="nvarchar" MaxLength="255" />
+          <Property Name="aadhar_number" Type="nvarchar" MaxLength="255" />
+          <Property Name="pan_no" Type="nvarchar" MaxLength="255" />
+          <Property Name="date_created" Type="datetime" />
+          <Property Name="date_modified" Type="datetime" />
+          <Property Name="createdby_id" Type="int" />
+          <Property Name="modifiedby_id" Type="int" />
+        </EntityType>
+        <EntityType Name="dropdown_master">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="code" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="dropdown_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="status" Type="bit" />
+          <Property Name="created_date" Type="datetime" />
+          <Property Name="modified_date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="user_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="user_hash" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="first_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="last_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="phone_home" Type="nvarchar" MaxLength="100" />
+          <Property Name="phone_mobile" Type="nvarchar" MaxLength="100" />
+          <Property Name="department" Type="nvarchar" MaxLength="100" />
+          <Property Name="primary_email" Type="nvarchar" MaxLength="200" />
+          <Property Name="alternate_email" Type="nvarchar" MaxLength="200" />
+          <Property Name="report_to_id" Type="int" />
+          <Property Name="user_type" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="user_status" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="created_date" Type="datetime" />
+          <Property Name="modified_date" Type="datetime" />
+          <Property Name="createdby_id" Type="int" />
+          <Property Name="modifiedby_id" Type="int" />
+        </EntityType>
+        <Function Name="GetArtistsData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="GetContactsData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="GetDropDownMasterData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="GetUsersData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="ViewContactData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="contact_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="ViewUserData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="user_id" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="PundolesModelStoreContainer">
+          <EntitySet Name="artists" EntityType="Self.artists" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="contacts" EntityType="Self.contacts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dropdown_master" EntityType="Self.dropdown_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PundolesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="PundolesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="dropdown_master" EntityType="PundolesModel.dropdown_master" />
+          <FunctionImport Name="GetDropDownMasterData" ReturnType="Collection(PundolesModel.GetDropDownMasterData_Result)" />
+          <FunctionImport Name="ViewContactData" ReturnType="Collection(PundolesModel.ViewContactData_Result)">
+          <Parameter Name="contact_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="GetContactsData" ReturnType="Collection(PundolesModel.GetContactsData_Result)" />
+          <FunctionImport Name="GetUsersData" ReturnType="Collection(PundolesModel.GetUsersData_Result)" />
+          <FunctionImport Name="ViewUserData" ReturnType="Collection(PundolesModel.ViewUserData_Result)">
+          <Parameter Name="user_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="users" EntityType="PundolesModel.user" />
+          <EntitySet Name="artists" EntityType="PundolesModel.artist" />
+          <FunctionImport Name="GetArtistsData" ReturnType="Collection(PundolesModel.GetArtistsData_Result)" />
+          <EntitySet Name="contacts" EntityType="PundolesModel.contact" />
+        </EntityContainer>
+        <EntityType Name="dropdown_master">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="code" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="description" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="dropdown_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="status" Type="Boolean" />
+          <Property Name="created_date" Type="DateTime" Precision="3" />
+          <Property Name="modified_date" Type="DateTime" Precision="3" />
+        </EntityType>
+        <ComplexType Name="GetDropDownMasterData_Result">
+          <Property Type="String" Name="code" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="description" Nullable="false" MaxLength="500" />
+          <Property Type="String" Name="dropdown_name" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="ViewContactData_Result">
+          <Property Type="Int32" Name="contact_id" Nullable="false" />
+          <Property Type="String" Name="salutation" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="contact_type" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="client_number" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="interest_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="category_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="customer_category_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="level_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="catalogue_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="marital_status_id" Nullable="true" MaxLength="100" />
+          <Property Type="DateTime" Name="marriage_anniversary_date" Nullable="true" />
+          <Property Type="String" Name="am_customer_id" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="approval_status_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="authorized_to_bid_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="email" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="phone" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="fax" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="mobile" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="other_phone" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="clients_vat_tin_no" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="aadhar_number" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="pan_no" Nullable="true" MaxLength="255" />
+          <Property Type="DateTime" Name="date_created" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="date_modified" Nullable="true" Precision="23" />
+          <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="company_name" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="GetContactsData_Result">
+          <Property Type="Int32" Name="contact_id" Nullable="false" />
+          <Property Type="String" Name="salutation" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="contact_type" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="client_number" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="interest_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="category_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="customer_category_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="level_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="catalogue_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="marital_status_id" Nullable="true" MaxLength="100" />
+          <Property Type="DateTime" Name="marriage_anniversary_date" Nullable="true" />
+          <Property Type="String" Name="am_customer_id" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="approval_status_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="authorized_to_bid_id" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="email" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="phone" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="fax" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="mobile" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="other_phone" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="clients_vat_tin_no" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="aadhar_number" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="pan_no" Nullable="true" MaxLength="255" />
+          <Property Type="DateTime" Name="date_created" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="date_modified" Nullable="true" Precision="23" />
+          <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="company_name" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="GetUsersData_Result">
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="user_name" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="phone_home" Nullable="true" MaxLength="100" />
+          <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+          <Property Type="String" Name="phone_mobile" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="department" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="primary_email" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="alternate_email" Nullable="true" MaxLength="200" />
+          <Property Type="Int32" Name="report_to_id" Nullable="true" />
+          <Property Type="String" Name="report_to_id_description" Nullable="true" MaxLength="201" />
+          <Property Type="String" Name="user_type" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="user_type_description" Nullable="true" MaxLength="500" />
+          <Property Type="String" Name="user_status" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="user_status_description" Nullable="true" MaxLength="500" />
+          </ComplexType>
+        <ComplexType Name="ViewUserData_Result">
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="user_name" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="phone_home" Nullable="true" MaxLength="100" />
+          <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+          <Property Type="String" Name="phone_mobile" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="department" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="primary_email" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="alternate_email" Nullable="true" MaxLength="200" />
+          <Property Type="Int32" Name="report_to_id" Nullable="true" />
+          <Property Type="String" Name="report_to_id_description" Nullable="true" MaxLength="201" />
+          <Property Type="String" Name="user_type" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="user_status" Nullable="false" MaxLength="100" />
+          </ComplexType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="user_name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="user_hash" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="first_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="last_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="phone_home" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="phone_mobile" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="department" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="primary_email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="alternate_email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="report_to_id" Type="Int32" />
+          <Property Name="user_type" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="user_status" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="created_date" Type="DateTime" Precision="3" />
+          <Property Name="modified_date" Type="DateTime" Precision="3" />
+          <Property Name="createdby_id" Type="Int32" />
+          <Property Name="modifiedby_id" Type="Int32" />
+        </EntityType>
+        <EntityType Name="artist">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="year_of_birth_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="year_of_death_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="status" Type="Boolean" />
+          <Property Name="created_date" Type="DateTime" Precision="3" />
+          <Property Name="modified_date" Type="DateTime" Precision="3" />
+          <Property Name="createdby_id" Type="Int32" />
+          <Property Name="modifiedby_id" Type="Int32" />
+        </EntityType>
+        <ComplexType Name="GetArtistsData_Result">
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="name" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="description" Nullable="true" />
+          <Property Type="String" Name="year_of_birth_c" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="year_of_death_c" Nullable="true" MaxLength="50" />
+          <Property Type="Boolean" Name="status" Nullable="true" />
+          <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="createdby_id" Nullable="true" />
+          <Property Type="Int32" Name="modifiedby_id" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="contact">
+          <Key>
+            <PropertyRef Name="contact_id" />
+          </Key>
+          <Property Name="contact_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="salutation" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="first_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="last_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="company_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="contact_type" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="client_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="interest_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="category_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="customer_category_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="level_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="catalogue_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="marital_status_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="marriage_anniversary_date" Type="DateTime" Precision="0" />
+          <Property Name="am_customer_id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="approval_status_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="authorized_to_bid_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="fax" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="mobile" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="other_phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="clients_vat_tin_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="aadhar_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="pan_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="date_created" Type="DateTime" Precision="3" />
+          <Property Name="date_modified" Type="DateTime" Precision="3" />
+          <Property Name="createdby_id" Type="Int32" />
+          <Property Name="modifiedby_id" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PundolesModelStoreContainer" CdmEntityContainer="PundolesEntities">
+          <EntitySetMapping Name="dropdown_master">
+            <EntityTypeMapping TypeName="PundolesModel.dropdown_master">
+              <MappingFragment StoreEntitySet="dropdown_master">
+                <ScalarProperty Name="modified_date" ColumnName="modified_date" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="dropdown_name" ColumnName="dropdown_name" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GetDropDownMasterData" FunctionName="PundolesModel.Store.GetDropDownMasterData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PundolesModel.GetDropDownMasterData_Result">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="dropdown_name" ColumnName="dropdown_name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ViewContactData" FunctionName="PundolesModel.Store.ViewContactData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PundolesModel.ViewContactData_Result">
+                <ScalarProperty Name="contact_id" ColumnName="contact_id" />
+                <ScalarProperty Name="salutation" ColumnName="salutation" />
+                <ScalarProperty Name="contact_type" ColumnName="contact_type" />
+                <ScalarProperty Name="client_number" ColumnName="client_number" />
+                <ScalarProperty Name="interest_id" ColumnName="interest_id" />
+                <ScalarProperty Name="category_id" ColumnName="category_id" />
+                <ScalarProperty Name="customer_category_id" ColumnName="customer_category_id" />
+                <ScalarProperty Name="level_id" ColumnName="level_id" />
+                <ScalarProperty Name="catalogue_id" ColumnName="catalogue_id" />
+                <ScalarProperty Name="marital_status_id" ColumnName="marital_status_id" />
+                <ScalarProperty Name="marriage_anniversary_date" ColumnName="marriage_anniversary_date" />
+                <ScalarProperty Name="am_customer_id" ColumnName="am_customer_id" />
+                <ScalarProperty Name="approval_status_id" ColumnName="approval_status_id" />
+                <ScalarProperty Name="authorized_to_bid_id" ColumnName="authorized_to_bid_id" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="other_phone" ColumnName="other_phone" />
+                <ScalarProperty Name="clients_vat_tin_no" ColumnName="clients_vat_tin_no" />
+                <ScalarProperty Name="aadhar_number" ColumnName="aadhar_number" />
+                <ScalarProperty Name="pan_no" ColumnName="pan_no" />
+                <ScalarProperty Name="date_created" ColumnName="date_created" />
+                <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="company_name" ColumnName="company_name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetContactsData" FunctionName="PundolesModel.Store.GetContactsData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PundolesModel.GetContactsData_Result">
+                <ScalarProperty Name="contact_id" ColumnName="contact_id" />
+                <ScalarProperty Name="salutation" ColumnName="salutation" />
+                <ScalarProperty Name="contact_type" ColumnName="contact_type" />
+                <ScalarProperty Name="client_number" ColumnName="client_number" />
+                <ScalarProperty Name="interest_id" ColumnName="interest_id" />
+                <ScalarProperty Name="category_id" ColumnName="category_id" />
+                <ScalarProperty Name="customer_category_id" ColumnName="customer_category_id" />
+                <ScalarProperty Name="level_id" ColumnName="level_id" />
+                <ScalarProperty Name="catalogue_id" ColumnName="catalogue_id" />
+                <ScalarProperty Name="marital_status_id" ColumnName="marital_status_id" />
+                <ScalarProperty Name="marriage_anniversary_date" ColumnName="marriage_anniversary_date" />
+                <ScalarProperty Name="am_customer_id" ColumnName="am_customer_id" />
+                <ScalarProperty Name="approval_status_id" ColumnName="approval_status_id" />
+                <ScalarProperty Name="authorized_to_bid_id" ColumnName="authorized_to_bid_id" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="other_phone" ColumnName="other_phone" />
+                <ScalarProperty Name="clients_vat_tin_no" ColumnName="clients_vat_tin_no" />
+                <ScalarProperty Name="aadhar_number" ColumnName="aadhar_number" />
+                <ScalarProperty Name="pan_no" ColumnName="pan_no" />
+                <ScalarProperty Name="date_created" ColumnName="date_created" />
+                <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="company_name" ColumnName="company_name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetUsersData" FunctionName="PundolesModel.Store.GetUsersData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PundolesModel.GetUsersData_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="user_name" ColumnName="user_name" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="phone_home" ColumnName="phone_home" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="modified_date" ColumnName="modified_date" />
+                <ScalarProperty Name="phone_mobile" ColumnName="phone_mobile" />
+                <ScalarProperty Name="department" ColumnName="department" />
+                <ScalarProperty Name="primary_email" ColumnName="primary_email" />
+                <ScalarProperty Name="alternate_email" ColumnName="alternate_email" />
+                <ScalarProperty Name="report_to_id" ColumnName="report_to_id" />
+                <ScalarProperty Name="report_to_id_description" ColumnName="report_to_id_description" />
+                <ScalarProperty Name="user_type" ColumnName="user_type" />
+                <ScalarProperty Name="user_type_description" ColumnName="user_type_description" />
+                <ScalarProperty Name="user_status" ColumnName="user_status" />
+                <ScalarProperty Name="user_status_description" ColumnName="user_status_description" />
+                </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ViewUserData" FunctionName="PundolesModel.Store.ViewUserData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PundolesModel.ViewUserData_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="user_name" ColumnName="user_name" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="phone_home" ColumnName="phone_home" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="modified_date" ColumnName="modified_date" />
+                <ScalarProperty Name="phone_mobile" ColumnName="phone_mobile" />
+                <ScalarProperty Name="department" ColumnName="department" />
+                <ScalarProperty Name="primary_email" ColumnName="primary_email" />
+                <ScalarProperty Name="alternate_email" ColumnName="alternate_email" />
+                <ScalarProperty Name="report_to_id" ColumnName="report_to_id" />
+                <ScalarProperty Name="report_to_id_description" ColumnName="report_to_id_description" />
+                <ScalarProperty Name="user_type" ColumnName="user_type" />
+                <ScalarProperty Name="user_status" ColumnName="user_status" />
+                </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="PundolesModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="modifiedby_id" ColumnName="modifiedby_id" />
+                <ScalarProperty Name="createdby_id" ColumnName="createdby_id" />
+                <ScalarProperty Name="modified_date" ColumnName="modified_date" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="user_status" ColumnName="user_status" />
+                <ScalarProperty Name="user_type" ColumnName="user_type" />
+                <ScalarProperty Name="report_to_id" ColumnName="report_to_id" />
+                <ScalarProperty Name="alternate_email" ColumnName="alternate_email" />
+                <ScalarProperty Name="primary_email" ColumnName="primary_email" />
+                <ScalarProperty Name="department" ColumnName="department" />
+                <ScalarProperty Name="phone_mobile" ColumnName="phone_mobile" />
+                <ScalarProperty Name="phone_home" ColumnName="phone_home" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="user_hash" ColumnName="user_hash" />
+                <ScalarProperty Name="user_name" ColumnName="user_name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="artists">
+            <EntityTypeMapping TypeName="PundolesModel.artist">
+              <MappingFragment StoreEntitySet="artists">
+                <ScalarProperty Name="modifiedby_id" ColumnName="modifiedby_id" />
+                <ScalarProperty Name="createdby_id" ColumnName="createdby_id" />
+                <ScalarProperty Name="modified_date" ColumnName="modified_date" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="year_of_death_c" ColumnName="year_of_death_c" />
+                <ScalarProperty Name="year_of_birth_c" ColumnName="year_of_birth_c" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GetArtistsData" FunctionName="PundolesModel.Store.GetArtistsData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PundolesModel.GetArtistsData_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="year_of_birth_c" ColumnName="year_of_birth_c" />
+                <ScalarProperty Name="year_of_death_c" ColumnName="year_of_death_c" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="modified_date" ColumnName="modified_date" />
+                <ScalarProperty Name="createdby_id" ColumnName="createdby_id" />
+                <ScalarProperty Name="modifiedby_id" ColumnName="modifiedby_id" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="contacts">
+            <EntityTypeMapping TypeName="PundolesModel.contact">
+              <MappingFragment StoreEntitySet="contacts">
+                <ScalarProperty Name="modifiedby_id" ColumnName="modifiedby_id" />
+                <ScalarProperty Name="createdby_id" ColumnName="createdby_id" />
+                <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+                <ScalarProperty Name="date_created" ColumnName="date_created" />
+                <ScalarProperty Name="pan_no" ColumnName="pan_no" />
+                <ScalarProperty Name="aadhar_number" ColumnName="aadhar_number" />
+                <ScalarProperty Name="clients_vat_tin_no" ColumnName="clients_vat_tin_no" />
+                <ScalarProperty Name="other_phone" ColumnName="other_phone" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="authorized_to_bid_id" ColumnName="authorized_to_bid_id" />
+                <ScalarProperty Name="approval_status_id" ColumnName="approval_status_id" />
+                <ScalarProperty Name="am_customer_id" ColumnName="am_customer_id" />
+                <ScalarProperty Name="marriage_anniversary_date" ColumnName="marriage_anniversary_date" />
+                <ScalarProperty Name="marital_status_id" ColumnName="marital_status_id" />
+                <ScalarProperty Name="catalogue_id" ColumnName="catalogue_id" />
+                <ScalarProperty Name="level_id" ColumnName="level_id" />
+                <ScalarProperty Name="customer_category_id" ColumnName="customer_category_id" />
+                <ScalarProperty Name="category_id" ColumnName="category_id" />
+                <ScalarProperty Name="interest_id" ColumnName="interest_id" />
+                <ScalarProperty Name="client_number" ColumnName="client_number" />
+                <ScalarProperty Name="contact_type" ColumnName="contact_type" />
+                <ScalarProperty Name="company_name" ColumnName="company_name" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="salutation" ColumnName="salutation" />
+                <ScalarProperty Name="contact_id" ColumnName="contact_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PundolesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PundolesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="dropdown_master" EntityType="PundolesModel.dropdown_master" />
+    <FunctionImport Name="GetDropDownMasterData" ReturnType="Collection(PundolesModel.GetDropDownMasterData_Result)" />
+    <FunctionImport Name="ViewContactData" ReturnType="Collection(PundolesModel.ViewContactData_Result)">
+      <Parameter Name="contact_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetContactsData" ReturnType="Collection(PundolesModel.GetContactsData_Result)" />
+    <FunctionImport Name="GetUsersData" ReturnType="Collection(PundolesModel.GetUsersData_Result)" />
+    <FunctionImport Name="ViewUserData" ReturnType="Collection(PundolesModel.ViewUserData_Result)">
+      <Parameter Name="user_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="users" EntityType="PundolesModel.user" />
+    <EntitySet Name="artists" EntityType="PundolesModel.artist" />
+    <FunctionImport Name="GetArtistsData" ReturnType="Collection(PundolesModel.GetArtistsData_Result)" />
+    <EntitySet Name="contacts" EntityType="PundolesModel.contact" />
+  </EntityContainer>
+  <EntityType Name="dropdown_master">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="dropdown_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="modified_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <ComplexType Name="GetDropDownMasterData_Result">
+    <Property Type="String" Name="code" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="description" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="dropdown_name" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="ViewContactData_Result">
+    <Property Type="Int32" Name="contact_id" Nullable="false" />
+    <Property Type="String" Name="salutation" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="contact_type" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="client_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="interest_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="customer_category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="level_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="catalogue_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="marital_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="marriage_anniversary_date" Nullable="true" />
+    <Property Type="String" Name="am_customer_id" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="approval_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="authorized_to_bid_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="email" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="fax" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="other_phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="clients_vat_tin_no" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="aadhar_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="pan_no" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="date_created" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="date_modified" Nullable="true" Precision="23" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="company_name" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetContactsData_Result">
+    <Property Type="Int32" Name="contact_id" Nullable="false" />
+    <Property Type="String" Name="salutation" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="contact_type" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="client_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="interest_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="customer_category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="level_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="catalogue_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="marital_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="marriage_anniversary_date" Nullable="true" />
+    <Property Type="String" Name="am_customer_id" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="approval_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="authorized_to_bid_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="email" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="fax" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="other_phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="clients_vat_tin_no" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="aadhar_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="pan_no" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="date_created" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="date_modified" Nullable="true" Precision="23" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="company_name" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetUsersData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="user_name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="phone_home" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="phone_mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="department" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="primary_email" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="alternate_email" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="report_to_id" Nullable="true" />
+    <Property Type="String" Name="report_to_id_description" Nullable="true" MaxLength="201" />
+    <Property Type="String" Name="user_type" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="user_type_description" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="user_status" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="user_status_description" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="ViewUserData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="user_name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="phone_home" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="phone_mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="department" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="primary_email" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="alternate_email" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="report_to_id" Nullable="true" />
+    <Property Type="String" Name="report_to_id_description" Nullable="true" MaxLength="201" />
+    <Property Type="String" Name="user_type" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="user_status" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="user_hash" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="first_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="phone_home" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="phone_mobile" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="department" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="primary_email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="alternate_email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="report_to_id" Type="Int32" />
+    <Property Name="user_type" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="user_status" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="modified_date" Type="DateTime" Precision="3" />
+    <Property Name="createdby_id" Type="Int32" />
+    <Property Name="modifiedby_id" Type="Int32" />
+  </EntityType>
+  <EntityType Name="artist">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="year_of_birth_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="year_of_death_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="modified_date" Type="DateTime" Precision="3" />
+    <Property Name="createdby_id" Type="Int32" />
+    <Property Name="modifiedby_id" Type="Int32" />
+  </EntityType>
+  <ComplexType Name="GetArtistsData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="description" Nullable="true" />
+    <Property Type="String" Name="year_of_birth_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="year_of_death_c" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="status" Nullable="true" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="createdby_id" Nullable="true" />
+    <Property Type="Int32" Name="modifiedby_id" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="contact_id" />
+    </Key>
+    <Property Name="contact_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="salutation" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="first_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="company_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="contact_type" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="client_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="interest_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="category_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="customer_category_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="level_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="catalogue_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="marital_status_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="marriage_anniversary_date" Type="DateTime" Precision="0" />
+    <Property Name="am_customer_id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="approval_status_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="authorized_to_bid_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="fax" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="other_phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="clients_vat_tin_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="aadhar_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="pan_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="date_created" Type="DateTime" Precision="3" />
+    <Property Name="date_modified" Type="DateTime" Precision="3" />
+    <Property Name="createdby_id" Type="Int32" />
+    <Property Name="modifiedby_id" Type="Int32" />
+  </EntityType>
+</Schema>
