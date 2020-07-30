@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Vaishali-Pundoles\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AMIntegration.dll">
+      <publishTime>10/29/2019 10:20:22</publishTime>
+    </File>
+    <File Include="bin/AMIntegration.pdb">
+      <publishTime>09/26/2019 17:10:40</publishTime>
+    </File>
+    <File Include="bin/Cryptography.dll">
+      <publishTime>05/27/2019 06:02:00</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 12:14:14</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 07:30:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 07:31:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 07:32:56</publishTime>
+    </File>
+    <File Include="bin/WeCare.dll">
+      <publishTime>05/27/2019 10:09:00</publishTime>
+    </File>
+    <File Include="bin/WeCare.pdb">
+      <publishTime>05/27/2019 10:09:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/27/2019 06:03:00</publishTime>
+    </File>
+    <File Include="SuiteAPI/vssver2.scc">
+      <publishTime>05/27/2019 06:03:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/29/2019 10:18:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

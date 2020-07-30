@@ -1,0 +1,5 @@
+
+
+
+[5/31/2019 4:06:23 PM] Called 'GetUsers'
+[5/31/2019 4:06:24 PM] Successfully called with response:[{"id":1,"user_name":"ankit","first_name":"Ankit","last_name":"Rajput","phone_home":"64656656","created_date":null,"modified_date":null,"phone_mobile":"9822760482","department":"administrator","primary_email":"ankitsingh.rajput@ambitsoftware.com","alternate_email":null,"report_to_id":null,"report_to_id_description":"Ankit Rajput","user_type":"Administrator","user_type_description":"System Administrator User","user_status":"Active","user_status_description":"Active"}]

@@ -1,0 +1,171 @@
+E:\WeCare\WeCare\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+E:\WeCare\WeCare\bin\WeCare.dll.config
+E:\WeCare\WeCare\bin\WeCare.dll
+E:\WeCare\WeCare\bin\WeCare.pdb
+E:\WeCare\WeCare\bin\Newtonsoft.Json.dll
+E:\WeCare\WeCare\bin\Newtonsoft.Json.xml
+E:\WeCare\WeCare\obj\Debug\AMIntegration.csproj.CopyComplete
+E:\WeCare\WeCare\obj\Debug\WeCare.dll
+E:\WeCare\WeCare\obj\Debug\WeCare.pdb
+E:\Project\Pundoles\AMIntegration\AMIntegration\bin\WeCare.dll.config
+E:\Project\Pundoles\AMIntegration\AMIntegration\bin\WeCare.dll
+E:\Project\Pundoles\AMIntegration\AMIntegration\bin\WeCare.pdb
+E:\Project\Pundoles\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+E:\Project\Pundoles\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+E:\Project\Pundoles\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+E:\Project\Pundoles\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+E:\Project\Pundoles\AMIntegration\AMIntegration\obj\Debug\WeCare.dll
+E:\Project\Pundoles\AMIntegration\AMIntegration\obj\Debug\WeCare.pdb
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\WeCare.dll.config
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\WeCare.dll
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\WeCare.pdb
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\obj\Debug\WeCare.dll
+D:\Project\Pundoles\Integration\AMIntegration\AMIntegration\obj\Debug\WeCare.pdb
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\WeCare.dll.config
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\WeCare.dll
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\WeCare.pdb
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\obj\Debug\WeCare.dll
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\obj\Debug\WeCare.pdb
+E:\Project\Pundoles\20-May-19\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csprojAssemblyReference.cache
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\WeCare.dll.config
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\WeCare.dll
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\WeCare.pdb
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\obj\Debug\WeCare.dll
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\obj\Debug\WeCare.pdb
+D:\Project\Pundoles\Integration\AMIntegration_23.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csprojAssemblyReference.cache
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\WeCare.dll.config
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\WeCare.dll
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\WeCare.pdb
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\obj\Debug\WeCare.dll
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\obj\Debug\WeCare.pdb
+D:\Project\Pundoles\Integration\AMIntegration_24.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csprojAssemblyReference.cache
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\AMIntegration.dll.config
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\AMIntegration.dll
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\AMIntegration.pdb
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.dll
+D:\Project\Pundoles\Integration\AMIntegration_27.05.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.pdb
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\AMIntegration.dll.config
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\AMIntegration.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\AMIntegration.pdb
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\obj\Debug\AMIntegration.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration\AMIntegration\obj\Debug\AMIntegration.pdb
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\AMIntegration.dll.config
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\AMIntegration.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\AMIntegration.pdb
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration_06.06.2019\AMIntegration\AMIntegration\obj\Debug\AMIntegration.pdb
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\AMIntegration.dll.config
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\AMIntegration.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\AMIntegration.pdb
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\Newtonsoft.Json.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\System.Net.Http.Formatting.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\System.Web.Http.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\System.Web.Http.WebHost.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\Newtonsoft.Json.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\System.Net.Http.Formatting.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\System.Web.Http.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\bin\System.Web.Http.WebHost.xml
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\obj\Debug\AMIntegration.csprojAssemblyReference.cache
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\obj\Debug\AMIntegration.dll
+E:\Project\Pundoles\20-May-19\Vaishali changes Code\AMIntegration Final on production\AMIntegration\obj\Debug\AMIntegration.pdb
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\AMIntegration.dll.config
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\AMIntegration.dll
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\AMIntegration.pdb
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\obj\Debug\AMIntegration.dll
+C:\Vaishali-Pundoles\AMIntegration\AMIntegration\obj\Debug\AMIntegration.pdb
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\AMIntegration.dll.config
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\AMIntegration.dll
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\AMIntegration.pdb
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\Newtonsoft.Json.dll
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.dll
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\System.Web.Http.dll
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.dll
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\Newtonsoft.Json.xml
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\System.Net.Http.Formatting.xml
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\System.Web.Http.xml
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\bin\System.Web.Http.WebHost.xml
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CoreCompileInputs.cache
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csproj.CopyComplete
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\obj\Debug\AMIntegration.dll
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\obj\Debug\AMIntegration.pdb
+D:\Sudhir Deshmukh\AMIntegration_Surgar\AMIntegration\AMIntegration\obj\Debug\AMIntegration.csprojAssemblyReference.cache

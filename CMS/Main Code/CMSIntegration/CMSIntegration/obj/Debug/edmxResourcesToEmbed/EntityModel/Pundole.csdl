@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PundolesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PundolesEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetDropDownMasterData" ReturnType="Collection(PundolesModel.GetDropDownMasterData_Result)" />
+    <FunctionImport Name="ViewContactData" ReturnType="Collection(PundolesModel.ViewContactData_Result)">
+      <Parameter Name="contact_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetContactsData" ReturnType="Collection(PundolesModel.GetContactsData_Result)" />
+    <FunctionImport Name="GetUsersData" ReturnType="Collection(PundolesModel.GetUsersData_Result)" />
+    <FunctionImport Name="ViewUserData" ReturnType="Collection(PundolesModel.ViewUserData_Result)">
+      <Parameter Name="user_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetArtistsData" ReturnType="Collection(PundolesModel.GetArtistsData_Result)" />
+    <FunctionImport Name="GetAuctionsData" ReturnType="Collection(PundolesModel.GetAuctionsData_Result)" />
+    <FunctionImport Name="ViewAuctionData" ReturnType="Collection(PundolesModel.ViewAuctionData_Result)">
+      <Parameter Name="auction_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="artists" EntityType="PundolesModel.artist" />
+    <EntitySet Name="auction_calendar" EntityType="PundolesModel.auction_calendar" />
+    <EntitySet Name="contacts" EntityType="PundolesModel.contact" />
+    <EntitySet Name="dropdown_master" EntityType="PundolesModel.dropdown_master" />
+    <EntitySet Name="Items" EntityType="PundolesModel.Item" />
+    <EntitySet Name="users" EntityType="PundolesModel.user" />
+    <FunctionImport Name="GetItemsData" ReturnType="Collection(PundolesModel.GetItemsData_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GetDropDownMasterData_Result">
+    <Property Type="String" Name="code" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="description" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="dropdown_name" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="ViewContactData_Result">
+    <Property Type="Int32" Name="contact_id" Nullable="false" />
+    <Property Type="String" Name="salutation" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="contact_type" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="client_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="interest_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="customer_category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="level_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="catalogue_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="marital_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="marriage_anniversary_date" Nullable="true" />
+    <Property Type="String" Name="am_customer_id" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="approval_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="authorized_to_bid_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="email" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="fax" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="other_phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="clients_vat_tin_no" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="aadhar_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="pan_no" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="date_created" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="date_modified" Nullable="true" Precision="23" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="company_name" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetContactsData_Result">
+    <Property Type="Int32" Name="contact_id" Nullable="false" />
+    <Property Type="String" Name="salutation" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="contact_type" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="client_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="interest_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="customer_category_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="level_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="catalogue_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="marital_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="marriage_anniversary_date" Nullable="true" />
+    <Property Type="String" Name="am_customer_id" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="approval_status_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="authorized_to_bid_id" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="email" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="fax" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="other_phone" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="clients_vat_tin_no" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="aadhar_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="pan_no" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="date_created" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="date_modified" Nullable="true" Precision="23" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="company_name" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetUsersData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="user_name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="phone_home" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="phone_mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="department" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="primary_email" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="alternate_email" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="report_to_id" Nullable="true" />
+    <Property Type="String" Name="report_to_id_description" Nullable="true" MaxLength="201" />
+    <Property Type="String" Name="user_type" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="user_type_description" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="user_status" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="user_status_description" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="ViewUserData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="user_name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="first_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="last_name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="phone_home" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="phone_mobile" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="department" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="primary_email" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="alternate_email" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="report_to_id" Nullable="true" />
+    <Property Type="String" Name="report_to_id_description" Nullable="true" MaxLength="201" />
+    <Property Type="String" Name="user_type" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="user_status" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetArtistsData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="description" Nullable="true" />
+    <Property Type="String" Name="year_of_birth_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="year_of_death_c" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="status" Nullable="true" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="createdby_id" Nullable="true" />
+    <Property Type="Int32" Name="modifiedby_id" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetAuctionsData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="description" Nullable="true" MaxLength="500" />
+    <Property Type="Int32" Name="deleted" Nullable="true" />
+    <Property Type="String" Name="auction_type_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="auction_title_c" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="start_date_c" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="end_date_c" Nullable="true" Precision="23" />
+    <Property Type="String" Name="viewing_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="city_description_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="buyer_commission_in_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="auction_number_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="invoice_description_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="am_customer_id_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="currency_type_c" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="ViewAuctionData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="description" Nullable="true" MaxLength="500" />
+    <Property Type="Int32" Name="deleted" Nullable="true" />
+    <Property Type="String" Name="auction_type_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="auction_title_c" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="start_date_c" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="end_date_c" Nullable="true" Precision="23" />
+    <Property Type="String" Name="viewing_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="city_description_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="buyer_commission_in_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="auction_number_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="invoice_description_c" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="am_customer_id_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="currency_type_c" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="created_date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="modified_date" Nullable="true" Precision="23" />
+  </ComplexType>
+  <EntityType Name="artist">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="year_of_birth_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="year_of_death_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="modified_date" Type="DateTime" Precision="3" />
+    <Property Name="createdby_id" Type="Int32" />
+    <Property Name="modifiedby_id" Type="Int32" />
+  </EntityType>
+  <EntityType Name="auction_calendar">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="deleted" Type="Int32" />
+    <Property Name="auction_type_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="auction_title_c" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="start_date_c" Type="DateTime" Precision="3" />
+    <Property Name="end_date_c" Type="DateTime" Precision="3" />
+    <Property Name="viewing_c" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="city_description_c" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="buyer_commission_in_c" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="auction_number_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="invoice_description_c" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="am_customer_id_c" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="currency_type_c" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="modified_date" Type="DateTime" Precision="3" />
+    <Property Name="createdby_id" Type="Int32" />
+    <Property Name="modifiedby_id" Type="Int32" />
+  </EntityType>
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="contact_id" />
+    </Key>
+    <Property Name="contact_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="salutation" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="first_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="company_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="contact_type" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="client_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="interest_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="category_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="customer_category_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="level_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="catalogue_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="marital_status_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="marriage_anniversary_date" Type="DateTime" Precision="0" />
+    <Property Name="am_customer_id" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="approval_status_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="authorized_to_bid_id" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="fax" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="other_phone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="clients_vat_tin_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="aadhar_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="pan_no" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="date_created" Type="DateTime" Precision="3" />
+    <Property Name="date_modified" Type="DateTime" Precision="3" />
+    <Property Name="createdby_id" Type="Int32" />
+    <Property Name="modifiedby_id" Type="Int32" />
+  </EntityType>
+  <EntityType Name="dropdown_master">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="dropdown_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="modified_date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="lot_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="item_name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="item_size" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="basic_description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="author" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="region" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="medium" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="region_and_date" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="year_of_birth" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="school_general_description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="marked_stamped_dated" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="date_of_painting" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="title_2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="year_of_death" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="item_date" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="signature_details" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="low_resolution_image" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="artist_school" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="photography" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="hsn_sacode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="high_estimate" Type="Decimal" Precision="26" Scale="6" />
+    <Property Name="commission_rate" Type="Int32" />
+    <Property Name="reserve" Type="Decimal" Precision="26" Scale="6" />
+    <Property Name="asi_registration_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="base_rate" Type="Decimal" Precision="18" Scale="8" />
+    <Property Name="low_estimate" Type="Decimal" Precision="26" Scale="6" />
+    <Property Name="ac1_auctionalendar_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="cat1ategories_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="add1_addresses_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="a1_artists_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="loc_location_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="sym1_symbols_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="client_number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="contact_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="date_entered" Type="DateTime" Precision="3" />
+    <Property Name="date_modified" Type="DateTime" Precision="3" />
+    <Property Name="modified_user_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="created_by" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="deleted" Type="Boolean" />
+    <Property Name="assigned_user_id" Type="String" MaxLength="36" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="user_hash" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="first_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="phone_home" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="phone_mobile" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="department" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="primary_email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="alternate_email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="report_to_id" Type="Int32" />
+    <Property Name="user_type" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="user_status" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="modified_date" Type="DateTime" Precision="3" />
+    <Property Name="createdby_id" Type="Int32" />
+    <Property Name="modifiedby_id" Type="Int32" />
+  </EntityType>
+  <ComplexType Name="GetItemsData_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="auction_number_c" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="title" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="lot_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="item_name" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="item_size" Nullable="true" />
+    <Property Type="String" Name="basic_description" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="author" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="region" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="medium" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="region_and_date" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="year_of_birth" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="school_general_description" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="marked_stamped_dated" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="date_of_painting" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="title_2" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="year_of_death" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="item_date" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="signature_details" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="low_resolution_image" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="artist_school" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="photography" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="hsn_sacode" Nullable="true" MaxLength="255" />
+    <Property Type="Decimal" Name="high_estimate" Nullable="true" Precision="26" Scale="6" />
+    <Property Type="Int32" Name="commission_rate" Nullable="true" />
+    <Property Type="Decimal" Name="reserve" Nullable="true" Precision="26" Scale="6" />
+    <Property Type="String" Name="asi_registration_number" Nullable="true" MaxLength="255" />
+    <Property Type="Decimal" Name="base_rate" Nullable="true" Precision="18" Scale="8" />
+    <Property Type="Decimal" Name="low_estimate" Nullable="true" Precision="26" Scale="6" />
+    <Property Type="String" Name="ac1_auctionalendar_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="cat1ategories_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="add1_addresses_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="a1_artists_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="loc_location_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="sym1_symbols_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="client_number" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="contact_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="name" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="date_entered" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="date_modified" Nullable="true" Precision="23" />
+    <Property Type="String" Name="modified_user_id" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="created_by" Nullable="true" MaxLength="36" />
+    <Property Type="String" Name="description" Nullable="true" />
+    <Property Type="Boolean" Name="deleted" Nullable="true" />
+    <Property Type="String" Name="assigned_user_id" Nullable="true" MaxLength="36" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,5 @@
+
+
+
+[6/3/2019 4:50:37 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[6/3/2019 4:51:54 PM] Successfully called with response:{"data":[{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}

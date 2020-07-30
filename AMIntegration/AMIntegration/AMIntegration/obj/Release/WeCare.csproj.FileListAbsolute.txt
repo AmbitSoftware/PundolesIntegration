@@ -1,0 +1,79 @@
+D:\Projects\BM Service\Projects\WeCare\bin\WeCare.dll.config
+D:\Projects\BM Service\Projects\WeCare\bin\WeCare.dll
+D:\Projects\BM Service\Projects\WeCare\bin\WeCare.pdb
+D:\Projects\BM Service\Projects\WeCare\bin\Newtonsoft.Json.dll
+D:\Projects\BM Service\Projects\WeCare\bin\Newtonsoft.Json.xml
+D:\Projects\BM Service\Projects\WeCare\obj\Release\WeCare.dll
+D:\Projects\BM Service\Projects\WeCare\obj\Release\WeCare.pdb
+D:\Projects\BM Service\Projects\WeCare\bin\Cryptography.dll
+D:\Projects\BM Service\Projects\WeCare\obj\Release\WeCare.csprojAssemblyReference.cache
+D:\Projects\BM Service\Projects\WeCare\obj\Release\WeCare.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\Projects\WeCare\obj\Release\WeCare.csproj.CopyComplete
+D:\Projects\WeCare\WeCare\bin\WeCare.dll.config
+D:\Projects\WeCare\WeCare\bin\WeCare.dll
+D:\Projects\WeCare\WeCare\bin\WeCare.pdb
+D:\Projects\WeCare\WeCare\bin\Newtonsoft.Json.dll
+D:\Projects\WeCare\WeCare\bin\Newtonsoft.Json.xml
+D:\Projects\WeCare\WeCare\obj\Release\WeCare.csprojAssemblyReference.cache
+D:\Projects\WeCare\WeCare\obj\Release\WeCare.csproj.CoreCompileInputs.cache
+D:\Projects\WeCare\WeCare\obj\Release\WeCare.csproj.CopyComplete
+D:\Projects\WeCare\WeCare\obj\Release\WeCare.dll
+D:\Projects\WeCare\WeCare\obj\Release\WeCare.pdb
+D:\Projects\BM Service\WeCare\WeCare\WeCare\bin\WeCare.dll.config
+D:\Projects\BM Service\WeCare\WeCare\WeCare\bin\WeCare.dll
+D:\Projects\BM Service\WeCare\WeCare\WeCare\bin\WeCare.pdb
+D:\Projects\BM Service\WeCare\WeCare\WeCare\bin\Newtonsoft.Json.dll
+D:\Projects\BM Service\WeCare\WeCare\WeCare\bin\Newtonsoft.Json.xml
+D:\Projects\BM Service\WeCare\WeCare\WeCare\obj\Release\WeCare.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\WeCare\WeCare\WeCare\obj\Release\WeCare.csproj.CopyComplete
+D:\Projects\BM Service\WeCare\WeCare\WeCare\obj\Release\WeCare.dll
+D:\Projects\BM Service\WeCare\WeCare\WeCare\obj\Release\WeCare.pdb
+D:\Projects\BM Service\WeCare\WeCare\WeCare\obj\Release\WeCare.csprojAssemblyReference.cache
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\WeCare.dll.config
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\WeCare.dll
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\WeCare.pdb
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\Newtonsoft.Json.dll
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\Newtonsoft.Json.xml
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.csprojAssemblyReference.cache
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.csproj.CopyComplete
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.dll
+D:\Projects\BM Service\WeCare\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.pdb
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\WeCare.dll.config
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\WeCare.dll
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\WeCare.pdb
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\Newtonsoft.Json.dll
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\bin\Newtonsoft.Json.xml
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.dll
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.pdb
+D:\IAM Integration\WeCare_IAM_29-Jan-2019\WeCare\WeCare\obj\Release\WeCare.csprojResolveAssemblyReference.cache
+E:\Dayanand\WeCare\WeCare\bin\WeCare.dll.config
+E:\Dayanand\WeCare\WeCare\bin\WeCare.dll
+E:\Dayanand\WeCare\WeCare\bin\WeCare.pdb
+E:\Dayanand\WeCare\WeCare\bin\Newtonsoft.Json.dll
+E:\Dayanand\WeCare\WeCare\bin\Newtonsoft.Json.xml
+E:\Dayanand\WeCare\WeCare\obj\Release\WeCare.csprojAssemblyReference.cache
+E:\Dayanand\WeCare\WeCare\obj\Release\WeCare.csproj.CoreCompileInputs.cache
+E:\Dayanand\WeCare\WeCare\obj\Release\WeCare.csproj.CopyComplete
+E:\Dayanand\WeCare\WeCare\obj\Release\WeCare.dll
+E:\Dayanand\WeCare\WeCare\obj\Release\WeCare.pdb
+E:\WeCare\WeCare\bin\WeCare.dll.config
+E:\WeCare\WeCare\bin\WeCare.dll
+E:\WeCare\WeCare\bin\WeCare.pdb
+E:\WeCare\WeCare\bin\Newtonsoft.Json.dll
+E:\WeCare\WeCare\bin\Newtonsoft.Json.xml
+E:\WeCare\WeCare\obj\Release\WeCare.csprojAssemblyReference.cache
+E:\WeCare\WeCare\obj\Release\WeCare.csproj.CoreCompileInputs.cache
+E:\WeCare\WeCare\obj\Release\WeCare.csproj.CopyComplete
+E:\WeCare\WeCare\obj\Release\WeCare.dll
+E:\WeCare\WeCare\obj\Release\WeCare.pdb
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\bin\WeCare.dll.config
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\bin\WeCare.dll
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\bin\WeCare.pdb
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\bin\Newtonsoft.Json.dll
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\bin\Newtonsoft.Json.xml
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\obj\Release\WeCare.csprojAssemblyReference.cache
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\obj\Release\WeCare.csproj.CoreCompileInputs.cache
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\obj\Release\WeCare.csproj.CopyComplete
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\obj\Release\WeCare.dll
+D:\Projects\BM Service\WeCare\MainCode\WeCare_IAM\WeCare_IAM\WeCare\WeCare\obj\Release\WeCare.pdb

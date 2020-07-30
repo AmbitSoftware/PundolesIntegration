@@ -1,0 +1,76 @@
+
+
+
+[5/24/2019 11:42:20 AM] Called 'PushArtists' with request :[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":null,"year_of_death_c":null},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":null,"year_of_death_c":null}]
+[5/24/2019 11:42:48 AM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 11:45:32 AM] Called 'PushArtists' with request :[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":null,"year_of_death_c":null},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":null,"year_of_death_c":null}]
+
+
+[5/24/2019 11:52:40 AM] Called 'PushArtists' with request :[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":null,"year_of_death_c":null},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":null,"year_of_death_c":null}]
+[5/24/2019 11:52:50 AM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 12:12:51 PM] Called 'PushArtists' with request :[{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","name":null,"description":"Description","year_of_birth_c":null,"year_of_death_c":null},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","name":null,"description":"Description","year_of_birth_c":null,"year_of_death_c":null}]
+[5/24/2019 12:13:45 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 12:19:56 PM] Called 'PushArtists' with request :[{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","name":null,"description":"Description","year_of_birth_c":null,"year_of_death_c":null},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","name":null,"description":"Description","year_of_birth_c":null,"year_of_death_c":null}]
+
+
+[5/24/2019 12:20:59 PM] Called 'PushAuctions' with request :[{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","description":"Description","auction_title_c":null,"start_date_c":null,"end_date_c":null,"city_description_c":null,"auction_number_c":null},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","description":"Description","auction_title_c":null,"start_date_c":null,"end_date_c":null,"city_description_c":null,"auction_number_c":null}]
+[5/24/2019 12:21:03 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 12:27:20 PM] Called 'PushAuctions' with request :[{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","description":"Description","auction_title_c":null,"start_date_c":null,"end_date_c":null,"city_description_c":null,"auction_number_c":null},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","description":"Description","auction_title_c":null,"start_date_c":null,"end_date_c":null,"city_description_c":null,"auction_number_c":null}]
+[5/24/2019 12:27:24 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 12:49:10 PM] Called 'PushArtists' with request :[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2007","year_of_death_c":"2007"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2007","year_of_death_c":"2007"}]
+
+
+[5/24/2019 1:27:19 PM] Called 'PushAuctions' with request :null
+[5/24/2019 1:27:20 PM] Exception while Adding/updating the data is System.NullReferenceException: Object reference not set to an instance of an object.
+   at CMSIntegration.SuiteAPI.PushResponseforMultipleEntries`1.BuildResponse(String sessionId, T[] arrayofData, String moduleName) in D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\SuiteAPI\PushResponse.cs:line 18
+   at CMSIntegration.Controller.SyncMastersController.PushAuctions(PushAuctionCalendar[] auctionCalendarRequest) in D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\Controller\SyncMastersController.cs:line 92
+
+
+[5/24/2019 3:08:32 PM] Called 'PushArtists' with request :[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}]
+[5/24/2019 3:08:36 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 3:14:05 PM] Called 'PushAuctions' with request :[{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","description":"Description","auction_title_c":"Art auction title New","start_date_c":"2019-05-24T15:13:58.1439547+05:30","end_date_c":"2019-05-24T15:13:58.1449545+05:30","city_description_c":"Chichwad Desc New","auction_number_c":"ART00721"},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","description":"Description","auction_title_c":"Art auction title New","start_date_c":"2019-05-24T15:13:58.1449545+05:30","end_date_c":"2019-05-24T15:13:58.1449545+05:30","city_description_c":"Viman Nagar New","auction_number_c":"123323"}]
+[5/24/2019 3:14:10 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 3:30:12 PM] Called 'PushSymbols' with request :[{"id":"d1ac7c6a-1ff3-9f3a-3bb1-5ce7c01c6e6e","code_c":"Code 1","description":"Description New"},{"id":"e25233fc-a6aa-e38a-8e36-5ce7c0d572ac","code_c":"Code 2","description":"Description 2"}]
+[5/24/2019 3:30:19 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 3:48:12 PM] Called 'PushLocations' with request :[{"id":"2814c335-2dee-f8d7-5788-5ce7c4851b4b","name":"Loc 1"},{"id":"7514fbdb-cec1-0262-daf5-5ce7c40aa3ba","name":"Loc 2"}]
+[5/24/2019 3:48:17 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 4:02:54 PM] Called 'PushCategories' with request :[{"id":"1d8fa0ad-7a94-58d4-8776-5cdd0705ad57","code_c":"Code 1","name":"Name 1"},{"id":"1d8fa0ad-7a94-58d4-8776-5cdd0705ad57","code_c":"Code 2","name":"Name 2"}]
+[5/24/2019 4:02:59 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 4:03:33 PM] Called 'PushCategories' with request :[{"id":"1d8fa0ad-7a94-58d4-8776-5cdd0705ad57","code_c":"Code 1","name":"Name 1"},{"id":"b0bf5be2-be26-5ffa-16e1-5ce7c86007bb","code_c":"Code 2","name":"Name 2"}]
+[5/24/2019 4:03:39 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}
+
+
+[5/24/2019 4:14:22 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/24/2019 4:14:24 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/24/2019 4:14:35 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/24/2019 4:14:36 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/24/2019 4:20:45 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/24/2019 4:20:52 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/24/2019 6:56:37 PM] Called 'UploadLotNumber' with request :[{"id":"2f5737a0-e729-07ce-25ea-5cdbbd972109","lot_number_c":"645465"},{"id":"6efa081d-d3a2-3caf-85aa-5ce669d878f3","lot_number_c":"11111"}]
+[5/24/2019 6:57:04 PM] Successfully called with response:{"SucceedCount":2,"FailedCount":0}

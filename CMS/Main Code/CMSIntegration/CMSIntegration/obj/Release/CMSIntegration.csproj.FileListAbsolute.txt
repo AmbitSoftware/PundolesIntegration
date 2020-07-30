@@ -1,0 +1,170 @@
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.rsp
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.rsp
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.AppContext.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Console.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Compression.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.AccessControl.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Claims.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.ValueTuple.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.rsp
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.SqlServer.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.SqlServer.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Cors.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Hosting.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Owin.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Cors.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.Owin.dll
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Cors.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Hosting.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.Owin.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll.config
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\CMSIntegration.pdb
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.exe.config
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csc.rsp
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.exe.config
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\csi.rsp
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.AppContext.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Console.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Compression.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.IO.Pipes.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.AccessControl.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Claims.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.ValueTuple.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.exe.config
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\vbc.rsp
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.SqlServer.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Cors.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.HttpListener.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Hosting.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Owin.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Cors.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.Owin.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\EntityFramework.SqlServer.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Cors.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.HttpListener.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Hosting.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Newtonsoft.Json.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Net.Http.Formatting.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.Owin.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\System.Web.Http.WebHost.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.csprojAssemblyReference.cache
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.csproj.CoreCompileInputs.cache
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.csproj.CopyComplete
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.dll
+E:\Project\CMSIntegration\Ankit backup\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.pdb
+D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\obj\Release\CMSIntegration.csprojResolveAssemblyReference.cache

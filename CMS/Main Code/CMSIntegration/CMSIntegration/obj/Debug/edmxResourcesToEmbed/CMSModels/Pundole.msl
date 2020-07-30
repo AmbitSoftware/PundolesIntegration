@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PundolesModelStoreContainer" CdmEntityContainer="PundoleEntities">
+    <EntitySetMapping Name="contacts">
+      <EntityTypeMapping TypeName="PundolesModel.contact">
+        <MappingFragment StoreEntitySet="contacts">
+          <ScalarProperty Name="contact_id" ColumnName="contact_id" />
+          <ScalarProperty Name="salutation" ColumnName="salutation" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="contact_type" ColumnName="contact_type" />
+          <ScalarProperty Name="client_number" ColumnName="client_number" />
+          <ScalarProperty Name="interest_id" ColumnName="interest_id" />
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
+          <ScalarProperty Name="customer_category_id" ColumnName="customer_category_id" />
+          <ScalarProperty Name="level_id" ColumnName="level_id" />
+          <ScalarProperty Name="catalogue_id" ColumnName="catalogue_id" />
+          <ScalarProperty Name="marital_status_id" ColumnName="marital_status_id" />
+          <ScalarProperty Name="marriage_anniversary_date" ColumnName="marriage_anniversary_date" />
+          <ScalarProperty Name="am_customer_id" ColumnName="am_customer_id" />
+          <ScalarProperty Name="approval_status_id" ColumnName="approval_status_id" />
+          <ScalarProperty Name="authorized_to_bid_id" ColumnName="authorized_to_bid_id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="other_phone" ColumnName="other_phone" />
+          <ScalarProperty Name="clients_vat_tin_no" ColumnName="clients_vat_tin_no" />
+          <ScalarProperty Name="aadhar_number" ColumnName="aadhar_number" />
+          <ScalarProperty Name="pan_no" ColumnName="pan_no" />
+          <ScalarProperty Name="date_created" ColumnName="date_created" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

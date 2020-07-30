@@ -1,0 +1,13 @@
+
+
+
+[6/24/2019 11:48:08 AM] Called 'DeleteItem' with request :"2f5737a0-e729-07ce-25ea-5cdbbd972109"
+[6/24/2019 11:49:48 AM] Successfully called with response:{"Id":"2f5737a0-e729-07ce-25ea-5cdbbd972109","Status":"Success"}
+
+
+[6/24/2019 11:50:13 AM] Called 'DeleteItem' with request :null
+[6/24/2019 11:50:16 AM] itemID should not be null or emplty
+
+
+[6/24/2019 11:50:35 AM] Called 'DeleteItem' with request :"6546"
+[6/24/2019 11:51:23 AM] Successfully called with response:{"Id":"6546","Status":"Success"}

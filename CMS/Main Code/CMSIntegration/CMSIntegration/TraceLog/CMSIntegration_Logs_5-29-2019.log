@@ -1,0 +1,220 @@
+
+
+
+[5/29/2019 12:15:48 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/29/2019 12:15:50 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 12:16:03 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/29/2019 12:16:04 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 12:16:12 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/29/2019 12:19:15 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 12:19:19 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+
+
+[5/29/2019 12:21:58 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+
+
+[5/29/2019 12:24:47 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+
+
+[5/29/2019 12:26:05 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+
+
+[5/29/2019 12:32:57 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/29/2019 12:33:37 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 12:34:07 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+
+
+[5/29/2019 12:34:59 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+[5/29/2019 12:37:17 PM] Successfully called with response:{"data":[{"id":"15a44b2d-4628-f780-8ef4-5ce7b593b279","auction_title_c":"Bird Auction Head","auction_number_c":"BD001","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"Thergaon Desc","description":""},{"id":"18374274-9f93-d708-7ecf-5ce3cb4b61bf","auction_title_c":"Tes ttitle","auction_number_c":"123123","start_date_c":"2011-11-03T00:00:00","end_date_c":null,"city_description_c":"City description","description":"Auction Cal 02 Description"},{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","auction_title_c":"Art auction title New","auction_number_c":"ART00721","start_date_c":"2019-05-24T00:00:00","end_date_c":"2019-05-24T00:00:00","city_description_c":"Chichwad Desc New","description":"Description"},{"id":"2064b8d6-2e5a-e2b1-132f-5cecd6bacdf6","auction_title_c":"New Auction title","auction_number_c":"123","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""},{"id":"214be734-ecd5-68f9-da66-5ce7b031674e","auction_title_c":"","auction_number_c":"0007","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=5&deleted=False"}
+
+
+[5/29/2019 12:38:31 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=5
+
+
+
+
+[5/29/2019 12:41:22 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+[5/29/2019 12:41:49 PM] Successfully called with response:{"data":[{"id":"15a44b2d-4628-f780-8ef4-5ce7b593b279","auction_title_c":"Bird Auction Head","auction_number_c":"BD001","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"Thergaon Desc","description":""},{"id":"18374274-9f93-d708-7ecf-5ce3cb4b61bf","auction_title_c":"Tes ttitle","auction_number_c":"123123","start_date_c":"2011-11-03T00:00:00","end_date_c":null,"city_description_c":"City description","description":"Auction Cal 02 Description"},{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","auction_title_c":"Art auction title New","auction_number_c":"ART00721","start_date_c":"2019-05-24T00:00:00","end_date_c":"2019-05-24T00:00:00","city_description_c":"Chichwad Desc New","description":"Description"},{"id":"2064b8d6-2e5a-e2b1-132f-5cecd6bacdf6","auction_title_c":"New Auction title","auction_number_c":"123","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""},{"id":"214be734-ecd5-68f9-da66-5ce7b031674e","auction_title_c":"","auction_number_c":"0007","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=5&deleted=True"}
+
+
+[5/29/2019 12:42:15 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=5
+[5/29/2019 12:42:23 PM] Successfully called with response:{"data":[{"id":"24f29a1e-cbc6-8d8e-99f9-5ce7b6fe0ea8","auction_title_c":"","auction_number_c":"1010","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"2508658c-be98-1229-4660-5ce79c0875c8","auction_title_c":"Demo Auction For testing title","auction_number_c":"ART009","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"Baramati desc","description":""},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","auction_title_c":"Art auction title New","auction_number_c":"123323","start_date_c":"2019-05-24T00:00:00","end_date_c":"2019-05-24T00:00:00","city_description_c":"Viman Nagar New","description":"Description"},{"id":"45a61140-4185-3acd-a3ec-5ce69a26ee7d","auction_title_c":"Test Auction","auction_number_c":"7090","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Chinchwad Desc","description":""},{"id":"4b21e0d1-6c41-b8a0-b8ed-5ce7a9b53b53","auction_title_c":"My Auction Head","auction_number_c":"AM009","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Pimpri desc","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=10&deleted=True"}
+
+
+[5/29/2019 12:42:41 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=10
+[5/29/2019 12:42:44 PM] Successfully called with response:{"data":[{"id":"4e080b02-bf8a-12fc-4617-5cebc95f091b","auction_title_c":"Title Abhi Auction","auction_number_c":"A097","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Abhi Auction Desc","description":""},{"id":"54d8483a-c3e1-85bd-2682-5ced0442fc61","auction_title_c":"Auction 28.05 title","auction_number_c":"121","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"5a56f049-dea3-4b9f-ed7d-5ce3c56adc64","auction_title_c":"","auction_number_c":"PJ","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":"Auction Pushed 21/05"},{"id":"62650cd9-8399-4b47-19e7-5ce38dfc823c","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 01 Description"},{"id":"67326fb7-b7b6-eb17-6780-5ce7aaacfbbc","auction_title_c":"asdsad","auction_number_c":"fdgdfgfdg","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=15&deleted=True"}
+
+
+[5/29/2019 12:43:20 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=15
+[5/29/2019 12:43:21 PM] Successfully called with response:{"data":[{"id":"715e8261-8484-61cf-bf74-5ce7946ff457","auction_title_c":"sadsd","auction_number_c":"adads","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"73697788-c1c7-8e62-56d8-5cdb93ab1e08","auction_title_c":"Test aacution","auction_number_c":"M002","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"Pune City","description":""},{"id":"7768d17e-980c-a484-2e6e-5ce793f97c71","auction_title_c":"sdad","auction_number_c":"SW000","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"7e170587-d938-e5c5-54d3-5ce796cf11ca","auction_title_c":"sd","auction_number_c":"asdsa","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"8f9caea9-2367-6891-8309-5ce7b7597a11","auction_title_c":"Computer Auction Title","auction_number_c":"CA08","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Thergaon Desc","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=20&deleted=True"}
+
+
+[5/29/2019 12:43:30 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=20
+[5/29/2019 12:43:32 PM] Successfully called with response:{"data":[{"id":"905e9eb8-f7e2-6d85-7e23-5ce7b36d59a1","auction_title_c":"","auction_number_c":"1009","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"94e6171e-5146-bd2d-f5af-5ce78f6b84ea","auction_title_c":"XYZ Auction","auction_number_c":"XYZ009","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Akola Description","description":""},{"id":"95d985bc-b291-54a1-ca8a-5cebe3af2fbc","auction_title_c":"Bottle Auction Title","auction_number_c":"BA009","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"City Desc Bottle Auction","description":""},{"id":"9c4fdf95-6a80-6f61-34d1-5ce3c59d7042","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 02 Description"},{"id":"a533ceaf-089e-44aa-0abf-5ce38d7be3e8","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 02 Description"}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=25&deleted=True"}
+
+
+[5/29/2019 12:43:43 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=25
+[5/29/2019 12:43:44 PM] Successfully called with response:{"data":[{"id":"b9f3a627-1854-4c0c-fd12-5ce790b4dec6","auction_title_c":"Demo Auction Titile","auction_number_c":"ART008","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"Mumbai Desc","description":""},{"id":"bbd38a3b-cfca-f277-f80d-5ce3cb6642c3","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Pushed 21/05"},{"id":"d9a1cec3-7e15-6b93-9871-5ce38daaa2bb","auction_title_c":"Auction Title","auction_number_c":"321","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Pune City","description":"Auction Cal 03 Description"},{"id":"db66486d-b7f1-82aa-bca0-5ce668c4a10f","auction_title_c":"Test Auction 23.05.2.19","auction_number_c":"112233","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""},{"id":"e2c1bd3a-73f7-a8b9-bc10-5ce69fbe00a1","auction_title_c":"Check12 title","auction_number_c":"567","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Chinchwad Desc","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=30&deleted=True"}
+
+
+[5/29/2019 12:43:54 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=30
+[5/29/2019 12:43:55 PM] Successfully called with response:{"data":[{"id":"e72707d7-7752-5384-b08c-5ce79ff5a010","auction_title_c":"","auction_number_c":"007","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 12:44:25 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=30
+[5/29/2019 12:48:40 PM] Successfully called with response:{"data":[{"id":"e72707d7-7752-5384-b08c-5ce79ff5a010","auction_title_c":"","auction_number_c":"007","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 12:49:11 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+[5/29/2019 12:49:25 PM] Exception while pulling the data is Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: D. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CMSIntegration.SuiteAPI.SuiteWrapper.<GetList>d__15.MoveNext() in D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\SuiteAPI\SuiteWrapper.cs:line 202
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at CMSIntegration.SuiteAPI.SuiteWrapper.<GetList>d__17`1.MoveNext() in D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\SuiteAPI\SuiteWrapper.cs:line 214
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CMSIntegration.Controller.SyncMastersController.PullMasterData(String methodName, String lastSyncDate, Nullable`1 nextOffSet, Boolean deleted) in D:\Projects\CMSIntegration\CMSIntegration\CMSIntegration\Controller\SyncMastersController.cs:line 320
+
+
+[5/29/2019 12:49:37 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+
+
+[5/29/2019 12:54:09 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+
+
+[5/29/2019 12:56:25 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+
+
+[5/29/2019 12:56:55 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+[5/29/2019 12:57:51 PM] Successfully called with response:{"data":[{"id":"15a44b2d-4628-f780-8ef4-5ce7b593b279","auction_title_c":"Bird Auction Head","auction_number_c":"BD001","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"Thergaon Desc","description":""},{"id":"18374274-9f93-d708-7ecf-5ce3cb4b61bf","auction_title_c":"Tes ttitle","auction_number_c":"123123","start_date_c":"2011-11-03T00:00:00","end_date_c":null,"city_description_c":"City description","description":"Auction Cal 02 Description"},{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","auction_title_c":"Art auction title New","auction_number_c":"ART00721","start_date_c":"2019-05-24T00:00:00","end_date_c":"2019-05-24T00:00:00","city_description_c":"Chichwad Desc New","description":"Description"},{"id":"2064b8d6-2e5a-e2b1-132f-5cecd6bacdf6","auction_title_c":"New Auction title","auction_number_c":"123","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""},{"id":"24f29a1e-cbc6-8d8e-99f9-5ce7b6fe0ea8","auction_title_c":"","auction_number_c":"1010","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=5&deleted=False"}
+
+
+[5/29/2019 1:05:51 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=5
+[5/29/2019 1:05:52 PM] Successfully called with response:{"data":[{"id":"2508658c-be98-1229-4660-5ce79c0875c8","auction_title_c":"Demo Auction For testing title","auction_number_c":"ART009","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"Baramati desc","description":""},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","auction_title_c":"Art auction title New","auction_number_c":"123323","start_date_c":"2019-05-24T00:00:00","end_date_c":"2019-05-24T00:00:00","city_description_c":"Viman Nagar New","description":"Description"},{"id":"45a61140-4185-3acd-a3ec-5ce69a26ee7d","auction_title_c":"Test Auction","auction_number_c":"7090","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Chinchwad Desc","description":""},{"id":"4e080b02-bf8a-12fc-4617-5cebc95f091b","auction_title_c":"Title Abhi Auction","auction_number_c":"A097","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Abhi Auction Desc","description":""},{"id":"54d8483a-c3e1-85bd-2682-5ced0442fc61","auction_title_c":"Auction 28.05 title","auction_number_c":"121","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=10&deleted=False"}
+
+
+[5/29/2019 1:06:21 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=10
+[5/29/2019 1:06:23 PM] Successfully called with response:{"data":[{"id":"5a56f049-dea3-4b9f-ed7d-5ce3c56adc64","auction_title_c":"","auction_number_c":"PJ","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":"Auction Pushed 21/05"},{"id":"62650cd9-8399-4b47-19e7-5ce38dfc823c","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 01 Description"},{"id":"715e8261-8484-61cf-bf74-5ce7946ff457","auction_title_c":"sadsd","auction_number_c":"adads","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"73697788-c1c7-8e62-56d8-5cdb93ab1e08","auction_title_c":"Test aacution","auction_number_c":"M002","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"Pune City","description":""},{"id":"7768d17e-980c-a484-2e6e-5ce793f97c71","auction_title_c":"sdad","auction_number_c":"SW000","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=15&deleted=False"}
+
+
+[5/29/2019 1:08:09 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=15
+[5/29/2019 1:08:11 PM] Successfully called with response:{"data":[{"id":"7e170587-d938-e5c5-54d3-5ce796cf11ca","auction_title_c":"sd","auction_number_c":"asdsa","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"8f9caea9-2367-6891-8309-5ce7b7597a11","auction_title_c":"Computer Auction Title","auction_number_c":"CA08","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Thergaon Desc","description":""},{"id":"94e6171e-5146-bd2d-f5af-5ce78f6b84ea","auction_title_c":"XYZ Auction","auction_number_c":"XYZ009","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Akola Description","description":""},{"id":"95d985bc-b291-54a1-ca8a-5cebe3af2fbc","auction_title_c":"Bottle Auction Title","auction_number_c":"BA009","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"City Desc Bottle Auction","description":""},{"id":"9c4fdf95-6a80-6f61-34d1-5ce3c59d7042","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 02 Description"}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=20&deleted=False"}
+
+
+[5/29/2019 1:09:35 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=20
+[5/29/2019 1:09:39 PM] Successfully called with response:{"data":[{"id":"a533ceaf-089e-44aa-0abf-5ce38d7be3e8","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 02 Description"},{"id":"b9f3a627-1854-4c0c-fd12-5ce790b4dec6","auction_title_c":"Demo Auction Titile","auction_number_c":"ART008","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"Mumbai Desc","description":""},{"id":"bbd38a3b-cfca-f277-f80d-5ce3cb6642c3","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Pushed 21/05"},{"id":"d9a1cec3-7e15-6b93-9871-5ce38daaa2bb","auction_title_c":"Auction Title","auction_number_c":"321","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Pune City","description":"Auction Cal 03 Description"},{"id":"db66486d-b7f1-82aa-bca0-5ce668c4a10f","auction_title_c":"Test Auction 23.05.2.19","auction_number_c":"112233","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=25&deleted=False"}
+
+
+[5/29/2019 1:10:49 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=20
+[5/29/2019 1:16:48 PM] Successfully called with response:{"data":[{"id":"a533ceaf-089e-44aa-0abf-5ce38d7be3e8","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 02 Description"},{"id":"b9f3a627-1854-4c0c-fd12-5ce790b4dec6","auction_title_c":"Demo Auction Titile","auction_number_c":"ART008","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"Mumbai Desc","description":""},{"id":"bbd38a3b-cfca-f277-f80d-5ce3cb6642c3","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Pushed 21/05"},{"id":"d9a1cec3-7e15-6b93-9871-5ce38daaa2bb","auction_title_c":"Auction Title","auction_number_c":"321","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Pune City","description":"Auction Cal 03 Description"},{"id":"db66486d-b7f1-82aa-bca0-5ce668c4a10f","auction_title_c":"Test Auction 23.05.2.19","auction_number_c":"112233","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=25&deleted=False"}
+
+
+[5/29/2019 1:17:48 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+
+
+[5/29/2019 1:29:15 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+
+
+[5/29/2019 1:30:04 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+
+
+[5/29/2019 1:31:33 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+[5/29/2019 1:31:52 PM] Successfully called with response:{"data":[{"id":"15a44b2d-4628-f780-8ef4-5ce7b593b279","auction_title_c":"Bird Auction Head","auction_number_c":"BD001","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"Thergaon Desc","description":""},{"id":"18374274-9f93-d708-7ecf-5ce3cb4b61bf","auction_title_c":"Tes ttitle","auction_number_c":"123123","start_date_c":"2011-11-03T00:00:00","end_date_c":null,"city_description_c":"City description","description":"Auction Cal 02 Description"},{"id":"1e138dcc-f241-1dc9-8a50-5ce779c48d9f","auction_title_c":"Art auction title New","auction_number_c":"ART00721","start_date_c":"2019-05-24T00:00:00","end_date_c":"2019-05-24T00:00:00","city_description_c":"Chichwad Desc New","description":"Description"},{"id":"2064b8d6-2e5a-e2b1-132f-5cecd6bacdf6","auction_title_c":"New Auction title","auction_number_c":"123","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""},{"id":"24f29a1e-cbc6-8d8e-99f9-5ce7b6fe0ea8","auction_title_c":"","auction_number_c":"1010","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=5&deleted=False"}
+
+
+[5/29/2019 1:31:59 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=5
+[5/29/2019 1:32:16 PM] Successfully called with response:{"data":[{"id":"2508658c-be98-1229-4660-5ce79c0875c8","auction_title_c":"Demo Auction For testing title","auction_number_c":"ART009","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"Baramati desc","description":""},{"id":"37733d0b-1d6c-2470-781a-5ce67d2a55f2","auction_title_c":"Art auction title New","auction_number_c":"123323","start_date_c":"2019-05-24T00:00:00","end_date_c":"2019-05-24T00:00:00","city_description_c":"Viman Nagar New","description":"Description"},{"id":"45a61140-4185-3acd-a3ec-5ce69a26ee7d","auction_title_c":"Test Auction","auction_number_c":"7090","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Chinchwad Desc","description":""},{"id":"4e080b02-bf8a-12fc-4617-5cebc95f091b","auction_title_c":"Title Abhi Auction","auction_number_c":"A097","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Abhi Auction Desc","description":""},{"id":"54d8483a-c3e1-85bd-2682-5ced0442fc61","auction_title_c":"Auction 28.05 title","auction_number_c":"121","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=10&deleted=False"}
+
+
+[5/29/2019 1:32:29 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=10
+[5/29/2019 1:32:31 PM] Successfully called with response:{"data":[{"id":"5a56f049-dea3-4b9f-ed7d-5ce3c56adc64","auction_title_c":"","auction_number_c":"PJ","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":"Auction Pushed 21/05"},{"id":"62650cd9-8399-4b47-19e7-5ce38dfc823c","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 01 Description"},{"id":"715e8261-8484-61cf-bf74-5ce7946ff457","auction_title_c":"sadsd","auction_number_c":"adads","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"73697788-c1c7-8e62-56d8-5cdb93ab1e08","auction_title_c":"Test aacution","auction_number_c":"M002","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"Pune City","description":""},{"id":"7768d17e-980c-a484-2e6e-5ce793f97c71","auction_title_c":"sdad","auction_number_c":"SW000","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=15&deleted=False"}
+
+
+[5/29/2019 1:32:38 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=15
+[5/29/2019 1:32:39 PM] Successfully called with response:{"data":[{"id":"7e170587-d938-e5c5-54d3-5ce796cf11ca","auction_title_c":"sd","auction_number_c":"asdsa","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"8f9caea9-2367-6891-8309-5ce7b7597a11","auction_title_c":"Computer Auction Title","auction_number_c":"CA08","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Thergaon Desc","description":""},{"id":"94e6171e-5146-bd2d-f5af-5ce78f6b84ea","auction_title_c":"XYZ Auction","auction_number_c":"XYZ009","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Akola Description","description":""},{"id":"95d985bc-b291-54a1-ca8a-5cebe3af2fbc","auction_title_c":"Bottle Auction Title","auction_number_c":"BA009","start_date_c":"2019-05-30T00:00:00","end_date_c":null,"city_description_c":"City Desc Bottle Auction","description":""},{"id":"9c4fdf95-6a80-6f61-34d1-5ce3c59d7042","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 02 Description"}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=20&deleted=False"}
+
+
+[5/29/2019 1:32:44 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=20
+[5/29/2019 1:32:46 PM] Successfully called with response:{"data":[{"id":"a533ceaf-089e-44aa-0abf-5ce38d7be3e8","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Cal 02 Description"},{"id":"b9f3a627-1854-4c0c-fd12-5ce790b4dec6","auction_title_c":"Demo Auction Titile","auction_number_c":"ART008","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"Mumbai Desc","description":""},{"id":"bbd38a3b-cfca-f277-f80d-5ce3cb6642c3","auction_title_c":"","auction_number_c":"","start_date_c":null,"end_date_c":null,"city_description_c":"","description":"Auction Pushed 21/05"},{"id":"d9a1cec3-7e15-6b93-9871-5ce38daaa2bb","auction_title_c":"Auction Title","auction_number_c":"321","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Pune City","description":"Auction Cal 03 Description"},{"id":"db66486d-b7f1-82aa-bca0-5ce668c4a10f","auction_title_c":"Test Auction 23.05.2.19","auction_number_c":"112233","start_date_c":"2019-05-23T00:00:00","end_date_c":null,"city_description_c":"city desc","description":""}],"IsDataAvailable":true,"NextDataURL":"http://localhost:49610/api/SyncMasters/PullMasterData?methodName=Auctions&lastSyncDate=5/20/2019 7:14:44 PM&nextOffSet=25&deleted=False"}
+
+
+[5/29/2019 1:32:53 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=25
+[5/29/2019 1:32:55 PM] Successfully called with response:{"data":[{"id":"e2c1bd3a-73f7-a8b9-bc10-5ce69fbe00a1","auction_title_c":"Check12 title","auction_number_c":"567","start_date_c":"2019-05-22T00:00:00","end_date_c":null,"city_description_c":"Chinchwad Desc","description":""}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 1:33:08 PM] Called 'PullMasterData' with request : MethodName-Auctions and nextOffSet=
+[5/29/2019 1:33:36 PM] Successfully called with response:{"data":[{"id":"214be734-ecd5-68f9-da66-5ce7b031674e","auction_title_c":"","auction_number_c":"0007","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"4b21e0d1-6c41-b8a0-b8ed-5ce7a9b53b53","auction_title_c":"My Auction Head","auction_number_c":"AM009","start_date_c":"2019-05-31T00:00:00","end_date_c":null,"city_description_c":"Pimpri desc","description":""},{"id":"67326fb7-b7b6-eb17-6780-5ce7aaacfbbc","auction_title_c":"asdsad","auction_number_c":"fdgdfgfdg","start_date_c":"2019-05-25T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"905e9eb8-f7e2-6d85-7e23-5ce7b36d59a1","auction_title_c":"","auction_number_c":"1009","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""},{"id":"e72707d7-7752-5384-b08c-5ce79ff5a010","auction_title_c":"","auction_number_c":"007","start_date_c":"2019-05-24T00:00:00","end_date_c":null,"city_description_c":"","description":""}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 1:36:17 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/29/2019 1:36:26 PM] Successfully called with response:{"data":[{"id":"28a0037d-cb79-6de7-dff3-5ce78a90516b","name":"Artist 1 Test","description":"Description 1","year_of_birth_c":"2010","year_of_death_c":"2019"},{"id":"751f73a4-8bbf-7dec-9a31-5ce78afb276c","name":"Artist 2 Test","description":"Description New 1","year_of_birth_c":"2010","year_of_death_c":"2019"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 1:36:37 PM] Called 'PullMasterData' with request : MethodName-Artists and nextOffSet=
+[5/29/2019 1:36:46 PM] Successfully called with response:{"data":[],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 2:03:53 PM] Called 'PullMasterData' with request : MethodName-Symbols and nextOffSet=
+[5/29/2019 2:04:07 PM] Successfully called with response:{"data":[{"id":"d1ac7c6a-1ff3-9f3a-3bb1-5ce7c01c6e6e","code_c":"Code 1","description":"Description New"},{"id":"e25233fc-a6aa-e38a-8e36-5ce7c0d572ac","code_c":"Code 2","description":"Description 2"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 2:04:24 PM] Called 'PullMasterData' with request : MethodName-Symbols and nextOffSet=
+[5/29/2019 2:04:27 PM] Successfully called with response:{"data":[],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 2:04:43 PM] Called 'PullMasterData' with request : MethodName-Locations and nextOffSet=
+[5/29/2019 2:04:48 PM] Successfully called with response:{"data":[{"id":"2814c335-2dee-f8d7-5788-5ce7c4851b4b","name":"Loc 1"},{"id":"7514fbdb-cec1-0262-daf5-5ce7c40aa3ba","name":"Loc 2"}],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 2:05:05 PM] Called 'PullMasterData' with request : MethodName-Locations and nextOffSet=
+[5/29/2019 2:05:08 PM] Successfully called with response:{"data":[],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 2:42:14 PM] Called 'PullMasterData' with request : MethodName-Symbols and nextOffSet=
+
+
+[5/29/2019 2:44:06 PM] Called 'PullMasterData' with request : MethodName-Symbols and nextOffSet=
+[5/29/2019 2:44:16 PM] Successfully called with response:{"data":[],"IsDataAvailable":false,"NextDataURL":null}
+
+
+[5/29/2019 4:28:03 PM] Called 'UpdateContact' with request :{"contact_id":0,"salutation":"salutation_test","name":"name_test","contact_type":"contact_type_test","client_number":"client_number_test","interest_id":"interest_id_test","category_id":"category_id_test","customer_category_id":"customer_category_id_test","level_id":"level_id_test","catalogue_id":"catalogue_id_test","marital_status_id":"marital_status_id_test","marriage_anniversary_date":null,"am_customer_id":"am_customer_id_test","approval_status_id":"approval_status_id_test","authorized_to_bid_id":"authorized_to_bid_id_test","email":"email_test","phone":"phone_test","fax":"fax_test","mobile":"mobile_test","other_phone":"other_phone_test","clients_vat_tin_no":"clients_vat_tin_no_test","aadhar_number":"aadhar_number_test","pan_no":"pan_no_test","date_created":null,"date_modified":null}
+
+
+[5/29/2019 4:28:43 PM] Called 'UpdateContact' with request :{"contact_id":0,"salutation":"salutation_test","name":"name_test","contact_type":"contact_type_test","client_number":"client_number_test","interest_id":"interest_id_test","category_id":"category_id_test","customer_category_id":"customer_category_id_test","level_id":"level_id_test","catalogue_id":"catalogue_id_test","marital_status_id":"marital_status_id_test","marriage_anniversary_date":null,"am_customer_id":"am_customer_id_test","approval_status_id":"approval_status_id_test","authorized_to_bid_id":"authorized_to_bid_id_test","email":"email_test","phone":"phone_test","fax":"fax_test","mobile":"mobile_test","other_phone":"other_phone_test","clients_vat_tin_no":"clients_vat_tin_no_test","aadhar_number":"aadhar_number_test","pan_no":"pan_no_test","date_created":null,"date_modified":null}
+[5/29/2019 4:28:46 PM] Contact doesn't exist.
+
+
+[5/29/2019 4:29:32 PM] Called 'UpdateContact' with request :{"contact_id":3,"salutation":"salutation_test","name":"name_test","contact_type":"contact_type_test","client_number":"client_number_test","interest_id":"interest_id_test","category_id":"category_id_test","customer_category_id":"customer_category_id_test","level_id":"level_id_test","catalogue_id":"catalogue_id_test","marital_status_id":"marital_status_id_test","marriage_anniversary_date":null,"am_customer_id":"am_customer_id_test","approval_status_id":"approval_status_id_test","authorized_to_bid_id":"authorized_to_bid_id_test","email":"email_test","phone":"phone_test","fax":"fax_test","mobile":"mobile_test","other_phone":"other_phone_test","clients_vat_tin_no":"clients_vat_tin_no_test","aadhar_number":"aadhar_number_test","pan_no":"pan_no_test","date_created":null,"date_modified":null}
+[5/29/2019 4:29:39 PM] Successfully called
+
+
+[5/29/2019 4:38:35 PM] Called 'GetDropdownMasterData'
+[5/29/2019 4:38:42 PM] Contact doesn't exist.
+
+
+[5/29/2019 4:39:01 PM] Called 'GetDropdownMasterData'
+[5/29/2019 4:39:15 PM] Successfully called with response:[{"contact_id":3,"salutation":"Mr.","name":"AnkitSingh RajPut","contact_type":"Personal","client_number":"x27","interest_id":"Painting","category_id":"Cat1","customer_category_id":"CustCat1","level_id":"Level1","catalogue_id":"","marital_status_id":"","marriage_anniversary_date":null,"am_customer_id":"","approval_status_id":"","authorized_to_bid_id":"","email":"ankit@ambitsoftware.com","phone":"","fax":"","mobile":"","other_phone":"","clients_vat_tin_no":"","aadhar_number":"","pan_no":"","date_created":null,"date_modified":null}]
+
+
+[5/29/2019 7:15:13 PM] Called 'GetDropdownMasterData'
+[5/29/2019 7:15:13 PM] Successfully called with response:[{"contact_id":8,"salutation":"Mr.","name":"Kartik","contact_type":"Company","client_number":"132","interest_id":"Abanindranath_Tagore","category_id":"Watches","customer_category_id":"VIP","level_id":"1","catalogue_id":"Yes","marital_status_id":"Spouse","marriage_anniversary_date":"1990-10-04T00:00:00","am_customer_id":"X2X31","approval_status_id":"Approved","authorized_to_bid_id":"No","email":"test3@amtest.com","phone":"232","fax":"020244450002","mobile":"020244155520","other_phone":"89382432894234","clients_vat_tin_no":"020244155520","aadhar_number":"2311239sfsuu","pan_no":"0923823jf","date_created":"2019-05-29T18:58:37.44","date_modified":"2019-05-29T18:58:37.44"}]

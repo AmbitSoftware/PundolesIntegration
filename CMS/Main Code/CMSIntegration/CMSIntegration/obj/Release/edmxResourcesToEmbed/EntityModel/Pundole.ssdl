@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PundolesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="artists">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="year_of_birth_c" Type="nvarchar" MaxLength="50" />
+    <Property Name="year_of_death_c" Type="nvarchar" MaxLength="50" />
+    <Property Name="status" Type="bit" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="modified_date" Type="datetime" />
+    <Property Name="createdby_id" Type="int" />
+    <Property Name="modifiedby_id" Type="int" />
+  </EntityType>
+  <EntityType Name="auction_calendar">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="500" />
+    <Property Name="deleted" Type="int" />
+    <Property Name="auction_type_c" Type="nvarchar" MaxLength="50" />
+    <Property Name="auction_title_c" Type="nvarchar" MaxLength="100" />
+    <Property Name="start_date_c" Type="datetime" />
+    <Property Name="end_date_c" Type="datetime" />
+    <Property Name="viewing_c" Type="nvarchar" MaxLength="100" />
+    <Property Name="city_description_c" Type="nvarchar" MaxLength="100" />
+    <Property Name="buyer_commission_in_c" Type="nvarchar" MaxLength="100" />
+    <Property Name="auction_number_c" Type="nvarchar" MaxLength="50" />
+    <Property Name="invoice_description_c" Type="nvarchar" MaxLength="100" />
+    <Property Name="am_customer_id_c" Type="nvarchar" MaxLength="50" />
+    <Property Name="currency_type_c" Type="nvarchar" MaxLength="100" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="modified_date" Type="datetime" />
+    <Property Name="createdby_id" Type="int" />
+    <Property Name="modifiedby_id" Type="int" />
+  </EntityType>
+  <EntityType Name="contacts">
+    <Key>
+      <PropertyRef Name="contact_id" />
+    </Key>
+    <Property Name="contact_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="salutation" Type="nvarchar" MaxLength="100" />
+    <Property Name="first_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="last_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="company_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="contact_type" Type="nvarchar" MaxLength="100" />
+    <Property Name="client_number" Type="nvarchar" MaxLength="255" />
+    <Property Name="interest_id" Type="nvarchar(max)" />
+    <Property Name="category_id" Type="nvarchar(max)" />
+    <Property Name="customer_category_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="level_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="catalogue_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="marital_status_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="marriage_anniversary_date" Type="date" />
+    <Property Name="am_customer_id" Type="nvarchar" MaxLength="255" />
+    <Property Name="approval_status_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="authorized_to_bid_id" Type="nvarchar" MaxLength="100" />
+    <Property Name="email" Type="nvarchar" MaxLength="255" />
+    <Property Name="phone" Type="nvarchar" MaxLength="100" />
+    <Property Name="fax" Type="nvarchar" MaxLength="100" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="100" />
+    <Property Name="other_phone" Type="nvarchar" MaxLength="100" />
+    <Property Name="clients_vat_tin_no" Type="nvarchar" MaxLength="255" />
+    <Property Name="aadhar_number" Type="nvarchar" MaxLength="255" />
+    <Property Name="pan_no" Type="nvarchar" MaxLength="255" />
+    <Property Name="date_created" Type="datetime" />
+    <Property Name="date_modified" Type="datetime" />
+    <Property Name="createdby_id" Type="int" />
+    <Property Name="modifiedby_id" Type="int" />
+  </EntityType>
+  <EntityType Name="dropdown_master">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="code" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="dropdown_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="status" Type="bit" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="modified_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="255" />
+    <Property Name="lot_number" Type="nvarchar" MaxLength="255" />
+    <Property Name="item_name" Type="nvarchar" MaxLength="255" />
+    <Property Name="item_size" Type="nvarchar(max)" />
+    <Property Name="basic_description" Type="nvarchar" MaxLength="255" />
+    <Property Name="author" Type="nvarchar" MaxLength="255" />
+    <Property Name="region" Type="nvarchar" MaxLength="255" />
+    <Property Name="medium" Type="nvarchar" MaxLength="255" />
+    <Property Name="region_and_date" Type="nvarchar" MaxLength="255" />
+    <Property Name="year_of_birth" Type="nvarchar" MaxLength="255" />
+    <Property Name="school_general_description" Type="nvarchar" MaxLength="255" />
+    <Property Name="marked_stamped_dated" Type="nvarchar" MaxLength="255" />
+    <Property Name="date_of_painting" Type="nvarchar" MaxLength="255" />
+    <Property Name="title_2" Type="nvarchar" MaxLength="255" />
+    <Property Name="year_of_death" Type="nvarchar" MaxLength="255" />
+    <Property Name="item_date" Type="nvarchar" MaxLength="255" />
+    <Property Name="signature_details" Type="nvarchar" MaxLength="255" />
+    <Property Name="low_resolution_image" Type="nvarchar" MaxLength="255" />
+    <Property Name="artist_school" Type="nvarchar" MaxLength="255" />
+    <Property Name="photography" Type="nvarchar" MaxLength="255" />
+    <Property Name="hsn_sacode" Type="nvarchar" MaxLength="255" />
+    <Property Name="high_estimate" Type="decimal" Precision="26" Scale="6" />
+    <Property Name="commission_rate" Type="int" />
+    <Property Name="reserve" Type="decimal" Precision="26" Scale="6" />
+    <Property Name="asi_registration_number" Type="nvarchar" MaxLength="255" />
+    <Property Name="base_rate" Type="decimal" Precision="18" Scale="8" />
+    <Property Name="low_estimate" Type="decimal" Precision="26" Scale="6" />
+    <Property Name="ac1_auctionalendar_id" Type="varchar" MaxLength="36" />
+    <Property Name="cat1ategories_id" Type="varchar" MaxLength="36" />
+    <Property Name="add1_addresses_id" Type="varchar" MaxLength="36" />
+    <Property Name="a1_artists_id" Type="varchar" MaxLength="36" />
+    <Property Name="loc_location_id" Type="varchar" MaxLength="36" />
+    <Property Name="sym1_symbols_id" Type="varchar" MaxLength="36" />
+    <Property Name="client_number" Type="nvarchar" MaxLength="255" />
+    <Property Name="contact_id" Type="varchar" MaxLength="36" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+    <Property Name="date_entered" Type="datetime" />
+    <Property Name="date_modified" Type="datetime" />
+    <Property Name="modified_user_id" Type="varchar" MaxLength="36" />
+    <Property Name="created_by" Type="varchar" MaxLength="36" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="deleted" Type="bit" />
+    <Property Name="assigned_user_id" Type="varchar" MaxLength="36" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="user_hash" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="first_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="last_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="phone_home" Type="nvarchar" MaxLength="100" />
+    <Property Name="phone_mobile" Type="nvarchar" MaxLength="100" />
+    <Property Name="department" Type="nvarchar" MaxLength="100" />
+    <Property Name="primary_email" Type="nvarchar" MaxLength="200" />
+    <Property Name="alternate_email" Type="nvarchar" MaxLength="200" />
+    <Property Name="report_to_id" Type="int" />
+    <Property Name="user_type" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="user_status" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="modified_date" Type="datetime" />
+    <Property Name="createdby_id" Type="int" />
+    <Property Name="modifiedby_id" Type="int" />
+  </EntityType>
+  <Function Name="GetArtistsData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetAuctionsData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetContactsData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetDropDownMasterData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetItemsData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetUsersData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ViewAuctionData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="auction_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ViewContactData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="contact_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ViewUserData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="user_id" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="PundolesModelStoreContainer">
+    <EntitySet Name="artists" EntityType="Self.artists" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="auction_calendar" EntityType="Self.auction_calendar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="contacts" EntityType="Self.contacts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dropdown_master" EntityType="Self.dropdown_master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Item" EntityType="Self.Item" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
